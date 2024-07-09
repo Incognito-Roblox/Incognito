@@ -3,9 +3,12 @@
 This is the official and latest source code of **Incognito**. Brought to you by the developers behind the software. This repository was created to provide a central, safe, and malware-free location for accessing and reviewing the code.
 
 ## Disclaimer
-Please note that the version of the software provided here was unfinished at the time of the leak. As such, it may be buggy and prone to crashes. We have not had the opportunity to finalize development, and users should proceed with caution.
+Please note that the version of the software provided here was unfinished at the time of the leak. As such, it may be buggy and prone to crashes.
+> [!WARNING]  
+> We have not had the opportunity to finalize development, and users should proceed with caution.
 
-**We are not liable for any damages caused or any consequences such as bans that may result from using this software. Users should proceed at their own risk.**
+> [!CAUTION]
+> **We are not liable for any damages caused or any consequences such as bans that may result from using this software. Users should proceed at their own risk.**
 
 ## Background
 Originally, this project was a maintained private and unfinished build of *Incognito*. It was subsequently leaked privately to a few, who utilized it without our consent to profit from our work.
