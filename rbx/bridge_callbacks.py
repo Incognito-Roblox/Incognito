@@ -37,7 +37,6 @@ async def send_websocket_message(url: str, message: str):
     print(f"Sent message to {url}: {message}")
     # BridgeService.Send(url + "_message") # * This should be auto called on the server if everything works properly
 
-
 def register_callbacks(Bridge: RBXBridge):
     global BridgeService
     BridgeService = Bridge
@@ -46,6 +45,10 @@ def register_callbacks(Bridge: RBXBridge):
     def get_rawmetatable(session: int, args: list[any]):
         # real 🤥
         pass
+
+    @BridgeService.RegisterCallback
+    def byfron_bypass(session: int, args: list[any]):
+        print("bypassed byfron created 100 remote threads!")
 
     @BridgeService.RegisterCallback
     def get_hwid(session: int, args: list[any]):
