@@ -3,6 +3,7 @@ import os, re
 RBXPath = os.getenv("LOCALAPPDATA") + "\\Roblox\\logs"
 RENDER_VIEW_PATTERN = r"\[FLog::SurfaceController\] SurfaceController\[_:\d\]::initialize view\([A-F0-9]{16}\)"
 
+# haha noob no updated offsets for u
 class Offsets:
     DataModelHolder = 0x118
     DataModel = 0x198
