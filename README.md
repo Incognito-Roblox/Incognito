@@ -23,3 +23,8 @@ This repository is a resource for learning and understanding. We hope that by ma
 Please ensure you **[read and follow the license](/LICENSE)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
 
 Thank you, - **Incognito Development Team**
+- [@piomanly](https://github.com/piomanly)
+- [@phoriah](https://github.com/phoriah)
+- [@usragent](https://github.com/usragent)
+- [@Ficelloo](https://github.com/Ficelloo)
+- [@jLn0n](https://github.com/jLn0n)
