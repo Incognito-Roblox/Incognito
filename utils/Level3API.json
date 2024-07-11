@@ -1,0 +1,3333 @@
+{
+    "Accessible": {
+        "Callback": {
+            "GuiService": {
+                "SendCoreUiNotification": "RobloxScriptSecurity"
+            },
+            "Plugin": {
+                "ProcessAssetInsertionDrag": "RobloxScriptSecurity",
+                "ProcessAssetInsertionDrop": "RobloxScriptSecurity"
+            }
+        },
+        "Event": {
+            "AdService": {
+                "AdTeleportEnded": "RobloxScriptSecurity",
+                "AdTeleportInitiated": "RobloxScriptSecurity",
+                "PortalPrompt": "RobloxScriptSecurity",
+                "ShowDynamicEudsaDisclosure": "RobloxScriptSecurity",
+                "ShowStaticEudsaDisclosure": "RobloxScriptSecurity"
+            },
+            "AnimationStreamTrack": {
+                "Stopped": "RobloxScriptSecurity"
+            },
+            "Animator": {
+                "AnimationPlayedCoreScript": "RobloxScriptSecurity",
+                "AnimationStreamTrackPlayed": "RobloxScriptSecurity"
+            },
+            "AssetManagerService": {
+                "AssetImportedSignal": "RobloxScriptSecurity",
+                "ImportSessionFinished": "RobloxScriptSecurity",
+                "ImportSessionStarted": "RobloxScriptSecurity",
+                "MayBeLinkedSourceModified": "RobloxScriptSecurity"
+            },
+            "AssetService": {
+                "AudioMetadataFailedResponse": "RobloxScriptSecurity",
+                "AudioMetadataRequest": "RobloxScriptSecurity",
+                "AudioMetadataResponse": "RobloxScriptSecurity",
+                "OpenCreateResultModal": "RobloxScriptSecurity",
+                "OpenPublishResultModal": "RobloxScriptSecurity"
+            },
+            "AvatarCreationService": {
+                "UgcValidationFailure": "RobloxScriptSecurity",
+                "UgcValidationSuccess": "RobloxScriptSecurity"
+            },
+            "AvatarEditorService": {
+                "OpenAllowInventoryReadAccess": "RobloxScriptSecurity",
+                "OpenPromptCreateOufit": "RobloxScriptSecurity",
+                "OpenPromptDeleteOutfit": "RobloxScriptSecurity",
+                "OpenPromptRenameOutfit": "RobloxScriptSecurity",
+                "OpenPromptSaveAvatar": "RobloxScriptSecurity",
+                "OpenPromptSetFavorite": "RobloxScriptSecurity",
+                "OpenPromptUpdateOutfit": "RobloxScriptSecurity",
+                "PromptSaveAvatarThumbnailCustomizationCompleted": "RobloxScriptSecurity"
+            },
+            "BadgeService": {
+                "BadgeAwarded": "RobloxScriptSecurity",
+                "OnBadgeAwarded": "RobloxScriptSecurity"
+            },
+            "BasePart": {
+                "NetworkOwnerChanged": "LocalUserSecurity"
+            },
+            "BaseWrap": {
+                "VerticesModified": "RobloxScriptSecurity"
+            },
+            "BrowserService": {
+                "AuthCookieCopiedToEngine": "RobloxScriptSecurity",
+                "BrowserWindowClosed": "RobloxScriptSecurity",
+                "BrowserWindowWillNavigate": "RobloxScriptSecurity",
+                "JavaScriptCallback": "RobloxScriptSecurity"
+            },
+            "BulkImportService": {
+                "AssetImported": "RobloxScriptSecurity",
+                "BulkImportFinished": "RobloxScriptSecurity",
+                "BulkImportStarted": "RobloxScriptSecurity"
+            },
+            "Camera": {
+                "FirstPersonTransition": "LocalUserSecurity"
+            },
+            "CaptureService": {
+                "CaptureSavedInternal": "RobloxScriptSecurity",
+                "OpenSaveCapturesPrompt": "RobloxScriptSecurity",
+                "OpenShareCapturePrompt": "RobloxScriptSecurity"
+            },
+            "ChangeHistoryService": {
+                "OnRecordingFinished": "PluginSecurity",
+                "OnRecordingStarted": "PluginSecurity",
+                "OnRedo": "PluginSecurity",
+                "OnUndo": "PluginSecurity"
+            },
+            "Chat": {
+                "BubbleChatSettingsChanged": "RobloxScriptSecurity"
+            },
+            "ChatbotUIService": {
+                "ActionActivatedSignal": "RobloxScriptSecurity",
+                "FindVariationsSignal": "RobloxScriptSecurity",
+                "SetMaterialSettingsSignal": "RobloxScriptSecurity",
+                "SettingChangedSignal": "RobloxScriptSecurity",
+                "ShiftToAssetIdSignal": "RobloxScriptSecurity",
+                "ShiftVariationSignal": "RobloxScriptSecurity"
+            },
+            "ClientReplicator": {
+                "RCCProfilerDataComplete": "RobloxScriptSecurity",
+                "StatsReceived": "RobloxScriptSecurity"
+            },
+            "CollaboratorsService": {
+                "CollaboratorIdleUpdate": "RobloxScriptSecurity",
+                "CollaboratorInstanceCreatedSignal": "RobloxScriptSecurity",
+                "CollaboratorInstanceDestroyedSignal": "RobloxScriptSecurity",
+                "CollaboratorStatusUpdateRequestedSignal": "RobloxScriptSecurity",
+                "CollaboratorStatusUpdatedSignal": "RobloxScriptSecurity"
+            },
+            "CommandService": {
+                "CommandExecuting": "RobloxScriptSecurity"
+            },
+            "ContextActionService": {
+                "BoundActionAdded": "RobloxScriptSecurity",
+                "BoundActionChanged": "RobloxScriptSecurity",
+                "BoundActionRemoved": "RobloxScriptSecurity",
+                "GetActionButtonEvent": "RobloxScriptSecurity"
+            },
+            "CoreGui": {
+                "UserGuiRenderingChanged": "RobloxScriptSecurity"
+            },
+            "CrossDMScriptChangeListener": {
+                "GuidLineContentsChanged": "RobloxScriptSecurity",
+                "GuidNameChanged": "RobloxScriptSecurity"
+            },
+            "DataModel": {
+                "ScreenshotReady": "RobloxScriptSecurity",
+                "ScreenshotSavedToAlbum": "RobloxScriptSecurity",
+                "UniverseMetadataLoaded": "RobloxScriptSecurity"
+            },
+            "DataModelSession": {
+                "CurrentDataModelTypeAboutToChange": "RobloxScriptSecurity",
+                "CurrentDataModelTypeChanged": "RobloxScriptSecurity"
+            },
+            "DebuggerConnection": {
+                "BreakpointAdded": "RobloxScriptSecurity",
+                "BreakpointChanged": "RobloxScriptSecurity",
+                "BreakpointRemoved": "RobloxScriptSecurity",
+                "Paused": "RobloxScriptSecurity",
+                "Resumed": "RobloxScriptSecurity"
+            },
+            "DebuggerConnectionManager": {
+                "ConnectionEnded": "RobloxScriptSecurity",
+                "ConnectionStarted": "RobloxScriptSecurity",
+                "FocusChanged": "RobloxScriptSecurity"
+            },
+            "DebuggerUIService": {
+                "ExpressionAdded": "RobloxScriptSecurity",
+                "ExpressionsCleared": "RobloxScriptSecurity"
+            },
+            "DraftsService": {
+                "CommitStatusChanged": "RobloxScriptSecurity",
+                "DraftAdded": "RobloxScriptSecurity",
+                "DraftRemoved": "RobloxScriptSecurity",
+                "DraftStatusChanged": "RobloxScriptSecurity",
+                "EditorsListChanged": "RobloxScriptSecurity",
+                "UpdateStatusChanged": "RobloxScriptSecurity"
+            },
+            "ExampleService": {
+                "OnPolo": "RobloxScriptSecurity"
+            },
+            "ExperienceAuthService": {
+                "OpenAuthPrompt": "RobloxScriptSecurity"
+            },
+            "ExperienceNotificationService": {
+                "PromptOptInRequested": "RobloxScriptSecurity"
+            },
+            "ExperienceService": {
+                "OnCrossExperienceStarted": "RobloxScriptSecurity",
+                "OnCrossExperienceStopped": "RobloxScriptSecurity",
+                "OnNewJoinAttempt": "RobloxScriptSecurity"
+            },
+            "ExperienceStateCaptureService": {
+                "ItemSelectedInCaptureMode": "RobloxScriptSecurity"
+            },
+            "FaceAnimatorService": {
+                "TrackerError": "RobloxScriptSecurity",
+                "TrackerPrompt": "RobloxScriptSecurity"
+            },
+            "FriendService": {
+                "FriendsUpdated": "RobloxScriptSecurity"
+            },
+            "GameSettings": {
+                "VideoRecordingChangeRequest": "RobloxScriptSecurity"
+            },
+            "GamepadService": {
+                "GamepadThumbstick1Changed": "RobloxScriptSecurity"
+            },
+            "GenericChallengeService": {
+                "ChallengeAbandonedEvent": "RobloxScriptSecurity",
+                "ChallengeCompletedEvent": "RobloxScriptSecurity",
+                "ChallengeInvalidatedEvent": "RobloxScriptSecurity",
+                "ChallengeLoadedEvent": "RobloxScriptSecurity",
+                "ChallengeRequiredEvent": "RobloxScriptSecurity"
+            },
+            "GuiService": {
+                "BrowserWindowClosed": "RobloxScriptSecurity",
+                "CloseInspectMenuRequest": "RobloxScriptSecurity",
+                "CoreGuiRenderOverflowed": "RobloxScriptSecurity",
+                "EmotesMenuOpenChanged": "RobloxScriptSecurity",
+                "ErrorMessageChanged": "RobloxScriptSecurity",
+                "GuiVisibilityChangedSignal": "RobloxScriptSecurity",
+                "InspectMenuEnabledChangedSignal": "RobloxScriptSecurity",
+                "InspectPlayerFromHumanoidDescriptionRequest": "RobloxScriptSecurity",
+                "InspectPlayerFromUserIdWithCtxRequest": "RobloxScriptSecurity",
+                "KeyPressed": "RobloxScriptSecurity",
+                "NativeClose": "RobloxScriptSecurity",
+                "NetworkPausedEnabledChanged": "RobloxScriptSecurity",
+                "Open9SliceEditor": "RobloxScriptSecurity",
+                "OpenAttenuationCurveEditor": "RobloxScriptSecurity",
+                "PurchasePromptShown": "RobloxScriptSecurity",
+                "SafeZoneOffsetsChanged": "RobloxScriptSecurity",
+                "ShowLeaveConfirmation": "RobloxScriptSecurity",
+                "SpecialKeyPressed": "RobloxScriptSecurity",
+                "UiMessageChanged": "RobloxScriptSecurity"
+            },
+            "HeightmapImporterService": {
+                "ColormapHasUnknownPixels": "RobloxScriptSecurity",
+                "ProgressUpdate": "RobloxScriptSecurity"
+            },
+            "Humanoid": {
+                "ClusterCompositionFinished": "RobloxScriptSecurity",
+                "EmoteTriggered": "RobloxScriptSecurity"
+            },
+            "IXPService": {
+                "OnBrowserTrackerLayerLoadingStatusChanged": "LocalUserSecurity",
+                "OnUserLayerLoadingStatusChanged": "LocalUserSecurity"
+            },
+            "LocalStorageService": {
+                "ItemWasSet": "RobloxScriptSecurity",
+                "StoreWasCleared": "RobloxScriptSecurity"
+            },
+            "LocalizationService": {
+                "AutoTranslateWillRun": "RobloxScriptSecurity"
+            },
+            "LogService": {
+                "HttpResultOut": "RobloxScriptSecurity",
+                "OnHttpResultApproved": "RobloxScriptSecurity",
+                "ServerHttpResultOut": "RobloxScriptSecurity",
+                "ServerMessageOut": "RobloxScriptSecurity"
+            },
+            "MarketplaceService": {
+                "AssetTypePurchased": "RobloxScriptSecurity",
+                "ClientLuaDialogRequested": "RobloxScriptSecurity",
+                "ClientPurchaseSuccess": "RobloxScriptSecurity",
+                "ConfirmPlayerMembership": "RobloxScriptSecurity",
+                "LuaDialogCallbackSignal": "RobloxScriptSecurity",
+                "MockPurchasePremium": "RobloxScriptSecurity",
+                "NativePurchaseFinished": "RobloxScriptSecurity",
+                "NativePurchaseFinishedWithLocalPlayer": "RobloxScriptSecurity",
+                "PrepareCollectiblesPurchaseRequested": "RobloxScriptSecurity",
+                "PromptBulkPurchaseRequested": "RobloxScriptSecurity",
+                "PromptBundlePurchaseRequested": "RobloxScriptSecurity",
+                "PromptCollectibleBundlePurchaseRequested": "RobloxScriptSecurity",
+                "PromptCollectiblesPurchaseRequested": "RobloxScriptSecurity",
+                "PromptGamePassPurchaseRequested": "RobloxScriptSecurity",
+                "PromptPremiumPurchaseRequested": "RobloxScriptSecurity",
+                "PromptProductPurchaseRequested": "RobloxScriptSecurity",
+                "PromptPurchaseRequested": "RobloxScriptSecurity",
+                "PromptPurchaseRequestedV2": "RobloxScriptSecurity",
+                "PromptRobloxPurchaseRequested": "RobloxScriptSecurity",
+                "PromptSubscriptionPurchaseRequested": "RobloxScriptSecurity",
+                "ServerPurchaseVerification": "RobloxScriptSecurity",
+                "ThirdPartyPurchaseFinished": "LocalUserSecurity"
+            },
+            "MaterialService": {
+                "OverrideStatusChanged": "RobloxScriptSecurity"
+            },
+            "MetaBreakpointManager": {
+                "MetaBreakpointAdded": "RobloxScriptSecurity",
+                "MetaBreakpointChanged": "RobloxScriptSecurity",
+                "MetaBreakpointRemoved": "RobloxScriptSecurity",
+                "MetaBreakpointSetChanged": "RobloxScriptSecurity"
+            },
+            "MouseService": {
+                "MouseEnterStudioViewport": "RobloxScriptSecurity",
+                "MouseLeaveStudioViewport": "RobloxScriptSecurity"
+            },
+            "MultipleDocumentInterfaceInstance": {
+                "DataModelSessionEnded": "RobloxScriptSecurity",
+                "DataModelSessionStarted": "RobloxScriptSecurity"
+            },
+            "NotificationService": {
+                "RobloxConnectionChanged": "RobloxScriptSecurity",
+                "RobloxEventReceived": "RobloxScriptSecurity"
+            },
+            "PackageUIService": {
+                "OnConvertToPackageResult": "RobloxScriptSecurity",
+                "OnOpenConvertToPackagePlugin": "RobloxScriptSecurity"
+            },
+            "Player": {
+                "FriendStatusChanged": "RobloxScriptSecurity",
+                "Kill": "LocalUserSecurity",
+                "RemoteFriendRequestSignal": "RobloxScriptSecurity",
+                "RemoteInsert": "LocalUserSecurity",
+                "ScriptSecurityError": "LocalUserSecurity",
+                "SimulationRadiusChanged": "LocalUserSecurity",
+                "StatsAvailable": "LocalUserSecurity"
+            },
+            "PlayerScripts": {
+                "ComputerCameraMovementModeRegistered": "RobloxScriptSecurity",
+                "ComputerMovementModeRegistered": "RobloxScriptSecurity",
+                "TouchCameraMovementModeRegistered": "RobloxScriptSecurity",
+                "TouchMovementModeRegistered": "RobloxScriptSecurity"
+            },
+            "Players": {
+                "FriendRequestEvent": "RobloxScriptSecurity",
+                "GameAnnounce": "RobloxScriptSecurity",
+                "PlayerChatted": "LocalUserSecurity",
+                "PlayerConnecting": "LocalUserSecurity",
+                "PlayerDisconnecting": "LocalUserSecurity",
+                "PlayerRejoining": "LocalUserSecurity"
+            },
+            "Plugin": {
+                "Deactivation": "PluginSecurity",
+                "Ready": "RobloxScriptSecurity",
+                "Unloading": "PluginSecurity"
+            },
+            "PluginAction": {
+                "Triggered": "PluginSecurity"
+            },
+            "PluginGui": {
+                "PluginDragDropped": "PluginSecurity",
+                "PluginDragEntered": "PluginSecurity",
+                "PluginDragLeft": "PluginSecurity",
+                "PluginDragMoved": "PluginSecurity",
+                "WindowFocusReleased": "PluginSecurity",
+                "WindowFocused": "PluginSecurity"
+            },
+            "PluginMouse": {
+                "DragEnter": "PluginSecurity"
+            },
+            "PluginToolbarButton": {
+                "Click": "PluginSecurity",
+                "DropdownClick": "RobloxScriptSecurity"
+            },
+            "ProjectFolderService": {
+                "FileChangedAfterSync": "RobloxScriptSecurity"
+            },
+            "ReplicatedFirst": {
+                "DefaultLoadingGuiRemoved": "RobloxScriptSecurity",
+                "FinishedReplicating": "RobloxScriptSecurity",
+                "RemoveDefaultLoadingGuiSignal": "RobloxScriptSecurity"
+            },
+            "RibbonNotificationService": {
+                "NewNotificationFromRibbon": "RobloxScriptSecurity",
+                "ToggleNotificationTray": "RobloxScriptSecurity"
+            },
+            "RomarkService": {
+                "RomarkEndOfTest": "RobloxScriptSecurity"
+            },
+            "RunService": {
+                "RobloxGuiFocusedChanged": "RobloxScriptSecurity"
+            },
+            "SafetyService": {
+                "ScreenshotContentReady": "RobloxScriptSecurity",
+                "ScreenshotUploaded": "RobloxScriptSecurity"
+            },
+            "ScriptChangeService": {
+                "ScriptAdded": "RobloxScriptSecurity",
+                "ScriptBeingRemoved": "RobloxScriptSecurity",
+                "ScriptChanged": "RobloxScriptSecurity",
+                "ScriptFullNameChanged": "RobloxScriptSecurity",
+                "ScriptSourceChanged": "RobloxScriptSecurity"
+            },
+            "ScriptContext": {
+                "ErrorDetailed": "RobloxScriptSecurity"
+            },
+            "ScriptDocument": {
+                "SelectionChanged": "PluginSecurity",
+                "ViewportChanged": "PluginSecurity"
+            },
+            "ScriptEditorService": {
+                "TextDocumentDidChange": "PluginSecurity",
+                "TextDocumentDidClose": "PluginSecurity",
+                "TextDocumentDidOpen": "PluginSecurity"
+            },
+            "ScriptProfilerService": {
+                "OnNewData": "PluginSecurity"
+            },
+            "ServiceProvider": {
+                "CloseLate": "LocalUserSecurity"
+            },
+            "ShorelineUpgraderService": {
+                "Status": "RobloxScriptSecurity"
+            },
+            "SmoothVoxelsUpgraderService": {
+                "Status": "RobloxScriptSecurity"
+            },
+            "SocialService": {
+                "PromptInviteRequested": "RobloxScriptSecurity",
+                "PromptIrisInviteRequested": "RobloxScriptSecurity",
+                "SelfViewHidden": "RobloxScriptSecurity",
+                "SelfViewVisible": "RobloxScriptSecurity"
+            },
+            "SoundService": {
+                "AudioInstanceAdded": "RobloxScriptSecurity",
+                "DeviceListChanged": "RobloxScriptSecurity"
+            },
+            "StarterGui": {
+                "CoreGuiChangedSignal": "RobloxScriptSecurity"
+            },
+            "StreamingService": {
+                "ConversationCleared": "RobloxScriptSecurity",
+                "RequestEnded": "RobloxScriptSecurity",
+                "RequestError": "RobloxScriptSecurity",
+                "RequestStarted": "RobloxScriptSecurity",
+                "SequentialCommandsFinished": "RobloxScriptSecurity",
+                "Stream": "RobloxScriptSecurity"
+            },
+            "Studio": {
+                "ThemeChanged": "PluginSecurity"
+            },
+            "StudioAssetService": {
+                "OnConvertToPackageResult": "RobloxScriptSecurity",
+                "OnPublishPackageResult": "RobloxScriptSecurity",
+                "OnSaveToRoblox": "RobloxScriptSecurity",
+                "OnUGCSubmitCompleted": "RobloxScriptSecurity"
+            },
+            "StudioDeviceEmulatorService": {
+                "CurrentDeviceIdChanged": "RobloxScriptSecurity",
+                "OrientationChanged": "RobloxScriptSecurity",
+                "TouchInBoundsChanged": "RobloxScriptSecurity",
+                "TouchPositionsChanged": "RobloxScriptSecurity"
+            },
+            "StudioPublishService": {
+                "GameNameUpdated": "RobloxScriptSecurity",
+                "GamePublishCancelled": "RobloxScriptSecurity",
+                "GamePublishFinished": "RobloxScriptSecurity",
+                "OnPublishAttempt": "RobloxScriptSecurity",
+                "OnSaveOrPublishPlaceToRoblox": "RobloxScriptSecurity"
+            },
+            "StudioService": {
+                "OnImportFromRoblox": "RobloxScriptSecurity",
+                "OnOpenGameSettings": "RobloxScriptSecurity",
+                "OnOpenManagePackagePlugin": "RobloxScriptSecurity",
+                "OnPluginInstalledFromToolbox": "RobloxScriptSecurity",
+                "OnPluginInstalledFromWeb": "RobloxScriptSecurity",
+                "OnPublishAsPlugin": "RobloxScriptSecurity",
+                "OnSaveToRoblox": "RobloxScriptSecurity",
+                "PromptTransformPluginCheckEnable": "RobloxScriptSecurity",
+                "SaveLocallyAsComplete": "RobloxScriptSecurity"
+            },
+            "StyleRule": {
+                "StyleRulePropertyChanged": "RobloxScriptSecurity"
+            },
+            "TeamCreateService": {
+                "ToggleManageCollaborators": "RobloxScriptSecurity"
+            },
+            "TeleportService": {
+                "MenuTeleportAttempt": "RobloxScriptSecurity"
+            },
+            "TextureGenerationService": {
+                "GenerationNotificationSignal": "RobloxScriptSecurity",
+                "PreviewNotificationSignal": "RobloxScriptSecurity"
+            },
+            "ThirdPartyUserService": {
+                "ActiveUserSignedOut": "RobloxScriptSecurity"
+            },
+            "TrackerLodController": {
+                "UpdateState": "RobloxScriptSecurity"
+            },
+            "UserGameSettings": {
+                "PerformanceStatsVisibleChanged": "RobloxScriptSecurity"
+            },
+            "UserInputService": {
+                "StatusBarTapped": "RobloxScriptSecurity"
+            },
+            "VRService": {
+                "LaserPointerTriggered": "RobloxScriptSecurity"
+            },
+            "VersionControlService": {
+                "CommitRejectedInfo": "LocalUserSecurity",
+                "LockedScriptBatchCommit": "LocalUserSecurity",
+                "RequestAllEditorsSignal": "LocalUserSecurity",
+                "ScriptBatchCommit": "LocalUserSecurity",
+                "ScriptChangesSubmitted": "LocalUserSecurity",
+                "ScriptEditorAdded": "LocalUserSecurity",
+                "ScriptEditorRemoved": "LocalUserSecurity",
+                "ScriptStartEdit": "LocalUserSecurity",
+                "ScriptStopEdit": "LocalUserSecurity"
+            },
+            "VideoCaptureService": {
+                "DevicesChanged": "RobloxScriptSecurity",
+                "Error": "RobloxScriptSecurity",
+                "Started": "RobloxScriptSecurity",
+                "Stopped": "RobloxScriptSecurity"
+            },
+            "VirtualInputManager": {
+                "PlaybackCompleted": "RobloxScriptSecurity",
+                "RecordingCompleted": "RobloxScriptSecurity"
+            },
+            "VoiceChatInternal": {
+                "LocalPlayerModerated": "RobloxScriptSecurity",
+                "ParticipantsStateChanged": "RobloxScriptSecurity",
+                "PlayerMicActivitySignalChange": "RobloxScriptSecurity"
+            }
+        },
+        "Function": {
+            "AccountService": {
+                "DeviceAccessTokenAvailable": "RobloxScriptSecurity",
+                "DeviceIntegrityAvailable": "RobloxScriptSecurity",
+                "GetCredentialsHeaders": "RobloxScriptSecurity",
+                "GetDeviceAccessToken": "RobloxScriptSecurity",
+                "GetDeviceIntegrityToken": "RobloxScriptSecurity",
+                "GetDeviceIntegrityTokenYield": "RobloxScriptSecurity"
+            },
+            "AdPortal": {
+                "TeleportConfirmed": "RobloxScriptSecurity",
+                "TeleportRejected": "RobloxScriptSecurity"
+            },
+            "AdService": {
+                "GetAdTeleportInfo": "RobloxScriptSecurity",
+                "GetReportAdInfo": "RobloxScriptSecurity",
+                "HideEudsaDisclosure": "RobloxScriptSecurity",
+                "ReturnToPublisherExperience": "RobloxScriptSecurity"
+            },
+            "AnimationClipProvider": {
+                "GetAnimationClip": "PluginSecurity",
+                "GetAnimationClipById": "PluginSecurity",
+                "GetMemStats": "RobloxScriptSecurity"
+            },
+            "AnimationFromVideoCreatorService": {
+                "CreateJob": "RobloxScriptSecurity",
+                "DownloadJobResult": "RobloxScriptSecurity",
+                "FullProcess": "RobloxScriptSecurity",
+                "GetJobStatus": "RobloxScriptSecurity"
+            },
+            "AnimationFromVideoCreatorStudioService": {
+                "CreateAnimationByUploadingVideo": "RobloxScriptSecurity",
+                "ImportVideoWithPrompt": "RobloxScriptSecurity",
+                "IsAgeRestricted": "RobloxScriptSecurity"
+            },
+            "AnimationRigData": {
+                "LoadFromHumanoid": "RobloxScriptSecurity"
+            },
+            "AnimationStreamTrack": {
+                "AdjustWeight": "RobloxScriptSecurity",
+                "GetTrackerData": "RobloxScriptSecurity",
+                "Play": "RobloxScriptSecurity",
+                "Stop": "RobloxScriptSecurity",
+                "TogglePause": "RobloxScriptSecurity"
+            },
+            "Animator": {
+                "GetPlayingAnimationTracksCoreScript": "RobloxScriptSecurity",
+                "LoadAnimationCoreScript": "RobloxScriptSecurity",
+                "LoadStreamAnimation": "RobloxScriptSecurity",
+                "LoadStreamAnimationForSelfieView_deprecated": "RobloxScriptSecurity",
+                "StepAnimations": "PluginSecurity",
+                "SynchronizeWith": "RobloxScriptSecurity"
+            },
+            "AppUpdateService": {
+                "CanPerformBinaryUpdate": "RobloxScriptSecurity",
+                "CheckForUpdate": "RobloxScriptSecurity",
+                "DisableDUAR": "RobloxScriptSecurity",
+                "DisableDUARAndOpenSurvey": "RobloxScriptSecurity",
+                "PerformManagedUpdate": "RobloxScriptSecurity"
+            },
+            "AssetImportService": {
+                "GetAllPresets": "RobloxScriptSecurity",
+                "GetPreset": "RobloxScriptSecurity",
+                "PickFileWithPrompt": "RobloxScriptSecurity",
+                "PickMultipleFilesWithPrompt": "RobloxScriptSecurity",
+                "RemovePreset": "RobloxScriptSecurity",
+                "SavePreset": "RobloxScriptSecurity",
+                "StartSessionWithPath": "RobloxScriptSecurity",
+                "StartSessionWithPrompt": "RobloxScriptSecurity"
+            },
+            "AssetImportSession": {
+                "ApplyPreset": "RobloxScriptSecurity",
+                "ApplySettings": "RobloxScriptSecurity",
+                "Cancel": "RobloxScriptSecurity",
+                "CreatePresetFromData": "RobloxScriptSecurity",
+                "GetFilename": "RobloxScriptSecurity",
+                "GetImportTree": "RobloxScriptSecurity",
+                "GetRigVisualization": "RobloxScriptSecurity",
+                "GetStatuses": "RobloxScriptSecurity",
+                "HasAnimation": "RobloxScriptSecurity",
+                "IsAvatar": "RobloxScriptSecurity",
+                "IsGltf": "RobloxScriptSecurity",
+                "IsR15": "RobloxScriptSecurity",
+                "Reset": "RobloxScriptSecurity",
+                "Upload": "RobloxScriptSecurity",
+                "usesCustomRestPoseLua": "RobloxScriptSecurity"
+            },
+            "AssetManagerService": {
+                "AddNewPlace": "RobloxScriptSecurity",
+                "CreateAlias": "RobloxScriptSecurity",
+                "DeleteAlias": "RobloxScriptSecurity",
+                "GetMeshIdFromAliasName": "RobloxScriptSecurity",
+                "GetMeshIdFromAssetId": "RobloxScriptSecurity",
+                "GetTextureIdFromAliasName": "RobloxScriptSecurity",
+                "GetTextureIdFromAssetId": "RobloxScriptSecurity",
+                "HasUnpublishedChangesForLinkedSource": "RobloxScriptSecurity",
+                "InsertAudio": "RobloxScriptSecurity",
+                "InsertImage": "RobloxScriptSecurity",
+                "InsertImages": "RobloxScriptSecurity",
+                "InsertLinkedSourceAsLocalScript": "RobloxScriptSecurity",
+                "InsertLinkedSourceAsModuleScript": "RobloxScriptSecurity",
+                "InsertLinkedSourceAsScript": "RobloxScriptSecurity",
+                "InsertMesh": "RobloxScriptSecurity",
+                "InsertMeshesWithLocation": "RobloxScriptSecurity",
+                "InsertModel": "RobloxScriptSecurity",
+                "InsertPackage": "RobloxScriptSecurity",
+                "InsertVideo": "RobloxScriptSecurity",
+                "OpenLinkedSource": "RobloxScriptSecurity",
+                "OpenPlace": "RobloxScriptSecurity",
+                "PublishLinkedSource": "RobloxScriptSecurity",
+                "RefreshLinkedSource": "RobloxScriptSecurity",
+                "RemovePlace": "RobloxScriptSecurity",
+                "RenameAlias": "RobloxScriptSecurity",
+                "RenameModel": "RobloxScriptSecurity",
+                "RenamePlace": "RobloxScriptSecurity",
+                "RevertLinkedSourceToLastPublishedVersion": "RobloxScriptSecurity",
+                "ShowPackageDetails": "RobloxScriptSecurity",
+                "UpdateAllPackages": "RobloxScriptSecurity",
+                "ViewPackageOnWebsite": "RobloxScriptSecurity"
+            },
+            "AssetService": {
+                "CreateEditableMeshStripSkinningAsync": "RobloxScriptSecurity",
+                "CreateMeshPartAsync": "PluginSecurity",
+                "DeserializeInstance": "RobloxScriptSecurity",
+                "GetBundleDetailsSync": "RobloxScriptSecurity",
+                "RegisterUGCValidationFunction": "RobloxScriptSecurity"
+            },
+            "AudioEmitter": {
+                "GetAudibilityFor": "RobloxScriptSecurity",
+                "GetInteractingListeners": "RobloxScriptSecurity"
+            },
+            "AudioListener": {
+                "GetAudibilityOf": "RobloxScriptSecurity",
+                "GetInteractingEmitters": "RobloxScriptSecurity"
+            },
+            "AvatarChatService": {
+                "EnableVoice": "RobloxScriptSecurity",
+                "GetClientFeaturesAsync": "RobloxScriptSecurity",
+                "GetServerFeaturesAsync": "RobloxScriptSecurity",
+                "IsEnabled": "RobloxScriptSecurity",
+                "IsPlaceEnabled": "RobloxScriptSecurity",
+                "IsUniverseEnabled": "RobloxScriptSecurity",
+                "PollClientFeatures": "RobloxScriptSecurity",
+                "PollServerFeatures": "RobloxScriptSecurity",
+                "deviceMeetsRequirementsForFeature": "RobloxScriptSecurity"
+            },
+            "AvatarEditorService": {
+                "NoPromptCreateOutfit": "RobloxScriptSecurity",
+                "NoPromptDeleteOutfit": "RobloxScriptSecurity",
+                "NoPromptRenameOutfit": "RobloxScriptSecurity",
+                "NoPromptSaveAvatar": "RobloxScriptSecurity",
+                "NoPromptSaveAvatarThumbnailCustomization": "RobloxScriptSecurity",
+                "NoPromptSetFavorite": "RobloxScriptSecurity",
+                "NoPromptUpdateOutfit": "RobloxScriptSecurity",
+                "PerformCreateOutfitWithDescription": "RobloxScriptSecurity",
+                "PerformDeleteOutfit": "RobloxScriptSecurity",
+                "PerformRenameOutfit": "RobloxScriptSecurity",
+                "PerformSaveAvatarWithDescription": "RobloxScriptSecurity",
+                "PerformSetFavorite": "RobloxScriptSecurity",
+                "PerformUpdateOutfit": "RobloxScriptSecurity",
+                "SetAllowInventoryReadAccess": "RobloxScriptSecurity",
+                "SignalCreateOutfitFailed": "RobloxScriptSecurity",
+                "SignalCreateOutfitPermissionDenied": "RobloxScriptSecurity",
+                "SignalDeleteOutfitFailed": "RobloxScriptSecurity",
+                "SignalDeleteOutfitPermissionDenied": "RobloxScriptSecurity",
+                "SignalRenameOutfitFailed": "RobloxScriptSecurity",
+                "SignalRenameOutfitPermissionDenied": "RobloxScriptSecurity",
+                "SignalSaveAvatarFailed": "RobloxScriptSecurity",
+                "SignalSaveAvatarPermissionDenied": "RobloxScriptSecurity",
+                "SignalSetFavoriteFailed": "RobloxScriptSecurity",
+                "SignalSetFavoritePermissionDenied": "RobloxScriptSecurity",
+                "SignalUpdateOutfitFailed": "RobloxScriptSecurity",
+                "SignalUpdateOutfitPermissionDenied": "RobloxScriptSecurity"
+            },
+            "AvatarImportService": {
+                "ImportFBXAnimationFromFilePathUserMayChooseModel": "RobloxScriptSecurity",
+                "ImportFBXAnimationUserMayChooseModel": "RobloxScriptSecurity",
+                "ImportFbxRigWithoutSceneLoad": "RobloxScriptSecurity",
+                "ImportLoadedFBXAnimation": "RobloxScriptSecurity",
+                "LoadRigAndDetectType": "RobloxScriptSecurity"
+            },
+            "BaseImportData": {
+                "CreatePresetFromData": "RobloxScriptSecurity",
+                "GetPreview": "RobloxScriptSecurity",
+                "GetStatuses": "RobloxScriptSecurity"
+            },
+            "BasePlayerGui": {
+                "GetGuiObjectsInCircle": "RobloxScriptSecurity"
+            },
+            "BaseWrap": {
+                "GetCageOffset": "RobloxScriptSecurity",
+                "GetFaces": "RobloxScriptSecurity",
+                "GetVertices": "RobloxScriptSecurity",
+                "IsHSRReady": "RobloxScriptSecurity",
+                "ModifyVertices": "RobloxScriptSecurity"
+            },
+            "BillboardGui": {
+                "GetScreenSpaceBounds": "RobloxScriptSecurity"
+            },
+            "BrowserService": {
+                "CloseBrowserWindow": "RobloxScriptSecurity",
+                "CopyAuthCookieFromBrowserToEngine": "RobloxScriptSecurity",
+                "EmitHybridEvent": "RobloxScriptSecurity",
+                "ExecuteJavaScript": "RobloxScriptSecurity",
+                "OpenBrowserWindow": "RobloxScriptSecurity",
+                "OpenNativeOverlay": "RobloxScriptSecurity",
+                "OpenWeChatAuthWindow": "RobloxScriptSecurity",
+                "ReturnToJavaScript": "RobloxScriptSecurity",
+                "SendCommand": "RobloxScriptSecurity"
+            },
+            "BulkImportService": {
+                "LaunchBulkImport": "RobloxScriptSecurity",
+                "ShowBulkImportView": "RobloxScriptSecurity"
+            },
+            "CalloutService": {
+                "AttachCallout": "RobloxScriptSecurity",
+                "DefineCallout": "RobloxScriptSecurity",
+                "DetachCalloutsByDefinitionId": "RobloxScriptSecurity"
+            },
+            "Camera": {
+                "SetImageServerView": "RobloxScriptSecurity",
+                "Zoom": "RobloxScriptSecurity"
+            },
+            "CaptureService": {
+                "DeleteCapture": "RobloxScriptSecurity",
+                "DeleteCapturesAsync": "RobloxScriptSecurity",
+                "GetCaptureFilePathAsync": "RobloxScriptSecurity",
+                "GetCaptureSizeAsync": "RobloxScriptSecurity",
+                "GetCaptureStorageSizeAsync": "RobloxScriptSecurity",
+                "OnCaptureBegan": "RobloxScriptSecurity",
+                "OnCaptureEnded": "RobloxScriptSecurity",
+                "OnCaptureShared": "RobloxScriptSecurity",
+                "OnSavePromptFinished": "RobloxScriptSecurity",
+                "OnSharePromptFinished": "RobloxScriptSecurity",
+                "RetrieveCaptures": "RobloxScriptSecurity",
+                "SaveCaptureToExternalStorage": "RobloxScriptSecurity",
+                "SaveCapturesToExternalStorageAsync": "RobloxScriptSecurity",
+                "SaveScreenshotCapture": "RobloxScriptSecurity"
+            },
+            "ChangeHistoryService": {
+                "FinishRecording": "PluginSecurity",
+                "GetCanRedo": "PluginSecurity",
+                "GetCanUndo": "PluginSecurity",
+                "IsRecordingInProgress": "PluginSecurity",
+                "Redo": "PluginSecurity",
+                "ResetWaypoints": "PluginSecurity",
+                "SetEnabled": "PluginSecurity",
+                "SetWaypoint": "PluginSecurity",
+                "TryBeginRecording": "PluginSecurity",
+                "Undo": "PluginSecurity"
+            },
+            "Chat": {
+                "ChatLocal": "RobloxScriptSecurity",
+                "GetShouldUseLuaChat": "RobloxScriptSecurity"
+            },
+            "ChatbotUIService": {
+                "DisplayContent": "RobloxScriptSecurity",
+                "GetSettings": "RobloxScriptSecurity"
+            },
+            "ClientReplicator": {
+                "RequestRCCProfilerData": "RobloxScriptSecurity",
+                "RequestServerLuauHeapData": "RobloxScriptSecurity",
+                "RequestServerScriptProfiling": "RobloxScriptSecurity",
+                "RequestServerScriptProfilingData": "RobloxScriptSecurity",
+                "RequestServerStats": "RobloxScriptSecurity"
+            },
+            "CollaboratorsService": {
+                "GetCollaboratorsList": "RobloxScriptSecurity",
+                "GetSelectionHighlightsEnabled": "RobloxScriptSecurity",
+                "RequestFlyToCollaborator": "RobloxScriptSecurity",
+                "ToggleSelectionHighlights": "RobloxScriptSecurity",
+                "ToggleTeamCreate": "RobloxScriptSecurity"
+            },
+            "CommandInstance": {
+                "EnableGuiAccess": "RobloxScriptSecurity",
+                "RegisterExecutionCallback": "RobloxScriptSecurity"
+            },
+            "CommandService": {
+                "Execute": "RobloxScriptSecurity",
+                "RegisterCommand": "RobloxScriptSecurity"
+            },
+            "ConnectivityService": {
+                "IsNetworkStateAvailable": "RobloxScriptSecurity"
+            },
+            "ContentProvider": {
+                "CalculateNumTrianglesInMesh": "RobloxScriptSecurity",
+                "CalculateNumTrianglesInMeshSync": "RobloxScriptSecurity",
+                "GetDetailedFailedRequests": "RobloxScriptSecurity",
+                "GetFailedRequests": "RobloxScriptSecurity",
+                "SetBaseUrl": "LocalUserSecurity"
+            },
+            "ContextActionService": {
+                "BindCoreAction": "RobloxScriptSecurity",
+                "BindCoreActionAtPriority": "RobloxScriptSecurity",
+                "BindCoreActivate": "RobloxScriptSecurity",
+                "CallFunction": "RobloxScriptSecurity",
+                "FireActionButtonFoundSignal": "RobloxScriptSecurity",
+                "GetAllBoundCoreActionInfo": "RobloxScriptSecurity",
+                "GetBoundCoreActionInfo": "RobloxScriptSecurity",
+                "UnbindCoreAction": "RobloxScriptSecurity",
+                "UnbindCoreActivate": "RobloxScriptSecurity"
+            },
+            "ConversationalAIAcceptanceService": {
+                "AlternativeAssetSelected": "RobloxScriptSecurity",
+                "AssetInserted": "RobloxScriptSecurity",
+                "CodeRunnerActivated": "RobloxScriptSecurity",
+                "CodeRunnerCompleted": "RobloxScriptSecurity",
+                "CodeRunnerUndone": "RobloxScriptSecurity",
+                "DataModelHierarchyLatency": "RobloxScriptSecurity",
+                "ErrorTelemetry": "RobloxScriptSecurity",
+                "InstanceInserted": "RobloxScriptSecurity",
+                "RecordingActionEnded": "RobloxScriptSecurity"
+            },
+            "CoreGui": {
+                "SetUserGuiRendering": "RobloxScriptSecurity",
+                "TakeScreenshot": "RobloxScriptSecurity",
+                "ToggleRecording": "RobloxScriptSecurity"
+            },
+            "CoreScriptSyncService": {
+                "GetScriptFilePath": "RobloxScriptSecurity"
+            },
+            "CrossDMScriptChangeListener": {
+                "IsWatchingScriptLine": "RobloxScriptSecurity",
+                "StartWatchingScriptLine": "RobloxScriptSecurity"
+            },
+            "DataModel": {
+                "DefineFastFlag": "RobloxScriptSecurity",
+                "DefineFastInt": "RobloxScriptSecurity",
+                "DefineFastString": "RobloxScriptSecurity",
+                "GetEngineFeature": "LocalUserSecurity",
+                "GetFastFlag": "LocalUserSecurity",
+                "GetFastInt": "LocalUserSecurity",
+                "GetFastString": "LocalUserSecurity",
+                "GetJobsInfo": "PluginSecurity",
+                "GetObjects": "PluginSecurity",
+                "GetObjectsAllOrNone": "RobloxScriptSecurity",
+                "GetObjectsAsync": "RobloxScriptSecurity",
+                "GetObjectsList": "RobloxScriptSecurity",
+                "GetPlaySessionId": "RobloxScriptSecurity",
+                "HttpGetAsync": "RobloxScriptSecurity",
+                "HttpPostAsync": "RobloxScriptSecurity",
+                "InsertObjectsAndJoinIfLegacyAsync": "RobloxScriptSecurity",
+                "IsContentLoaded": "RobloxScriptSecurity",
+                "IsUniverseMetadataLoaded": "RobloxScriptSecurity",
+                "Load": "LocalUserSecurity",
+                "OpenScreenshotsFolder": "RobloxScriptSecurity",
+                "OpenVideosFolder": "RobloxScriptSecurity",
+                "ReportInGoogleAnalytics": "RobloxScriptSecurity",
+                "SetFastFlagForTesting": "RobloxScriptSecurity",
+                "SetFastIntForTesting": "RobloxScriptSecurity",
+                "SetFastStringForTesting": "RobloxScriptSecurity",
+                "SetFlagVersion": "RobloxScriptSecurity",
+                "SetIsLoaded": "RobloxScriptSecurity",
+                "SetPlaceId": "PluginSecurity",
+                "SetUniverseId": "PluginSecurity",
+                "Shutdown": "LocalUserSecurity"
+            },
+            "DataModelPatchService": {
+                "GetLuaVersion": "RobloxScriptSecurity",
+                "GetPatch": "RobloxScriptSecurity",
+                "RegisterPatch": "RobloxScriptSecurity",
+                "UpdatePatch": "RobloxScriptSecurity"
+            },
+            "Debris": {
+                "SetLegacyMaxItems": "LocalUserSecurity"
+            },
+            "DebuggerConnection": {
+                "AddBreakpoint": "RobloxScriptSecurity",
+                "Close": "RobloxScriptSecurity",
+                "EvaluateWatch": "RobloxScriptSecurity",
+                "GetFrameById": "RobloxScriptSecurity",
+                "GetSource": "RobloxScriptSecurity",
+                "GetThreadById": "RobloxScriptSecurity",
+                "GetThreads": "RobloxScriptSecurity",
+                "GetVariableById": "RobloxScriptSecurity",
+                "Pause": "RobloxScriptSecurity",
+                "Populate": "RobloxScriptSecurity",
+                "RemoveBreakpoint": "RobloxScriptSecurity",
+                "Resume": "RobloxScriptSecurity",
+                "SetExceptionBreakMode": "RobloxScriptSecurity",
+                "SetVariable": "RobloxScriptSecurity",
+                "Step": "RobloxScriptSecurity",
+                "StepIn": "RobloxScriptSecurity",
+                "StepOut": "RobloxScriptSecurity",
+                "UpdateSelectedFrame": "RobloxScriptSecurity"
+            },
+            "DebuggerConnectionManager": {
+                "ConnectLocal": "RobloxScriptSecurity",
+                "ConnectRemote": "RobloxScriptSecurity",
+                "FocusConnection": "RobloxScriptSecurity",
+                "GetConnectionById": "RobloxScriptSecurity"
+            },
+            "DebuggerLuaResponse": {
+                "GetArg": "RobloxScriptSecurity"
+            },
+            "DebuggerManager": {
+                "EnableDebugging": "LocalUserSecurity"
+            },
+            "DebuggerUIService": {
+                "EditBreakpoint": "RobloxScriptSecurity",
+                "EditWatch": "RobloxScriptSecurity",
+                "IsConnectionForPlayDataModel": "RobloxScriptSecurity",
+                "OpenExceptionMessagePopup": "RobloxScriptSecurity",
+                "OpenScriptAtLine": "RobloxScriptSecurity",
+                "Pause": "RobloxScriptSecurity",
+                "RemoveScriptLineMarkers": "RobloxScriptSecurity",
+                "Resume": "RobloxScriptSecurity",
+                "SetCurrentThreadId": "RobloxScriptSecurity",
+                "SetScriptLineMarker": "RobloxScriptSecurity",
+                "SetWatchExpressions": "RobloxScriptSecurity"
+            },
+            "DebuggerVariable": {
+                "GetVariableByIndex": "RobloxScriptSecurity",
+                "GetVariableByName": "RobloxScriptSecurity"
+            },
+            "DeviceIdService": {
+                "GetDeviceId": "RobloxScriptSecurity"
+            },
+            "Dialog": {
+                "SetPlayerIsUsing": "RobloxScriptSecurity",
+                "SignalDialogChoiceSelected": "RobloxScriptSecurity"
+            },
+            "DockWidgetPluginGui": {
+                "RequestRaise": "RobloxScriptSecurity"
+            },
+            "DraftsService": {
+                "CommitEdits": "RobloxScriptSecurity",
+                "DiscardEdits": "RobloxScriptSecurity",
+                "GetDraftStatus": "RobloxScriptSecurity",
+                "GetDrafts": "RobloxScriptSecurity",
+                "GetEditors": "RobloxScriptSecurity",
+                "RestoreScripts": "RobloxScriptSecurity",
+                "ShowDiffsAgainstBase": "RobloxScriptSecurity",
+                "ShowDiffsAgainstServer": "RobloxScriptSecurity",
+                "ShowSourceDiffsAgainstCurrent": "RobloxScriptSecurity",
+                "UpdateToLatestVersion": "RobloxScriptSecurity"
+            },
+            "EventIngestService": {
+                "SendEventDeferred": "RobloxScriptSecurity",
+                "SendEventImmediately": "RobloxScriptSecurity",
+                "SetRBXEvent": "RobloxScriptSecurity",
+                "SetRBXEventStream": "RobloxScriptSecurity"
+            },
+            "ExampleService": {
+                "PrintHello": "RobloxScriptSecurity"
+            },
+            "ExperienceAuthService": {
+                "ScopeCheckUIComplete": "RobloxScriptSecurity"
+            },
+            "ExperienceNotificationService": {
+                "InvokeOptInPromptClosed": "RobloxScriptSecurity"
+            },
+            "ExperienceService": {
+                "GetPendingJoinAttempt": "RobloxScriptSecurity",
+                "LaunchExperience": "RobloxScriptSecurity",
+                "LaunchExperienceFromSource": "RobloxScriptSecurity",
+                "LaunchExperienceFromSourceWithCallback": "RobloxScriptSecurity",
+                "RegisterForExperienceJoin": "RobloxScriptSecurity",
+                "RegisterForExperienceLeave": "RobloxScriptSecurity",
+                "StartCrossExperience": "RobloxScriptSecurity",
+                "StopCrossExperience": "RobloxScriptSecurity"
+            },
+            "ExperienceStateCaptureService": {
+                "CanEnterCaptureMode": "RobloxScriptSecurity",
+                "ResetHighlight": "RobloxScriptSecurity",
+                "ToggleCaptureMode": "RobloxScriptSecurity"
+            },
+            "FaceAnimatorService": {
+                "GetTrackerLodController": "RobloxScriptSecurity",
+                "Init": "RobloxScriptSecurity",
+                "IsStarted": "RobloxScriptSecurity",
+                "Start": "RobloxScriptSecurity",
+                "Step": "RobloxScriptSecurity",
+                "Stop": "RobloxScriptSecurity"
+            },
+            "FacialAnimationRecordingService": {
+                "CheckOrRequestCameraPermission": "RobloxScriptSecurity",
+                "IsAgeRestricted": "RobloxScriptSecurity"
+            },
+            "FacialAnimationStreamingServiceStats": {
+                "Get": "RobloxScriptSecurity",
+                "GetWithPlayerId": "RobloxScriptSecurity"
+            },
+            "FacialAnimationStreamingServiceV2": {
+                "GetStats": "RobloxScriptSecurity",
+                "IsAudioEnabled": "RobloxScriptSecurity",
+                "IsPlaceEnabled": "RobloxScriptSecurity",
+                "IsServerEnabled": "RobloxScriptSecurity",
+                "IsVideoEnabled": "RobloxScriptSecurity",
+                "ResolveStateForUser": "RobloxScriptSecurity"
+            },
+            "File": {
+                "GetBinaryContents": "PluginSecurity",
+                "GetTemporaryId": "PluginSecurity"
+            },
+            "Fire": {
+                "FastForward": "RobloxScriptSecurity"
+            },
+            "FriendService": {
+                "GetPlatformFriends": "RobloxScriptSecurity"
+            },
+            "GamepadService": {
+                "GetGamepadCursorPosition": "RobloxScriptSecurity",
+                "SetGamepadCursorPosition": "RobloxScriptSecurity"
+            },
+            "GenericChallengeService": {
+                "SignalChallengeAbandoned": "RobloxScriptSecurity",
+                "SignalChallengeCompleted": "RobloxScriptSecurity",
+                "SignalChallengeInvalidated": "RobloxScriptSecurity",
+                "SignalChallengeLoaded": "RobloxScriptSecurity",
+                "SignalChallengeRequired": "RobloxScriptSecurity"
+            },
+            "GeometryService": {
+                "HashMeshAsync": "RobloxScriptSecurity",
+                "StitchMeshesAsync": "RobloxScriptSecurity"
+            },
+            "GuiService": {
+                "AddCenterDialog": "RobloxScriptSecurity",
+                "AddKey": "RobloxScriptSecurity",
+                "AddSpecialKey": "RobloxScriptSecurity",
+                "BroadcastNotification": "RobloxScriptSecurity",
+                "ClearError": "RobloxScriptSecurity",
+                "CloseStatsBasedOnInputString": "RobloxScriptSecurity",
+                "ForceTenFootInterface": "RobloxScriptSecurity",
+                "GetBrickCount": "RobloxScriptSecurity",
+                "GetClosestDialogToPosition": "RobloxScriptSecurity",
+                "GetErrorCode": "RobloxScriptSecurity",
+                "GetErrorMessage": "RobloxScriptSecurity",
+                "GetErrorType": "RobloxScriptSecurity",
+                "GetGuiIsVisible": "RobloxScriptSecurity",
+                "GetHardwareSafeViewport": "RobloxScriptSecurity",
+                "GetNotificationTypeList": "RobloxScriptSecurity",
+                "GetResolutionScale": "RobloxScriptSecurity",
+                "GetSafeZoneOffsets": "RobloxScriptSecurity",
+                "GetScreenResolution": "RobloxScriptSecurity",
+                "GetUiMessage": "RobloxScriptSecurity",
+                "InspectPlayerFromUserIdWithCtx": "RobloxScriptSecurity",
+                "IsMemoryTrackerEnabled": "RobloxScriptSecurity",
+                "OpenBrowserWindow": "RobloxScriptSecurity",
+                "OpenNativeOverlay": "RobloxScriptSecurity",
+                "RemoveCenterDialog": "RobloxScriptSecurity",
+                "RemoveKey": "RobloxScriptSecurity",
+                "RemoveSpecialKey": "RobloxScriptSecurity",
+                "SendUIOcclusionMetricsForQueryRegion": "RobloxScriptSecurity",
+                "SetGlobalGuiInset": "RobloxScriptSecurity",
+                "SetHardwareSafeAreaInsets": "RobloxScriptSecurity",
+                "SetMenuIsOpen": "RobloxScriptSecurity",
+                "SetPurchasePromptIsShown": "RobloxScriptSecurity",
+                "SetSafeZoneOffsets": "RobloxScriptSecurity",
+                "SetTopbarInset": "RobloxScriptSecurity",
+                "SetUiMessage": "LocalUserSecurity",
+                "ShowStatsBasedOnInputString": "RobloxScriptSecurity",
+                "ToggleFullscreen": "RobloxScriptSecurity",
+                "ToggleGuiIsVisibleForCaptures": "RobloxScriptSecurity",
+                "ToggleGuiIsVisibleIfAllowed": "RobloxScriptSecurity"
+            },
+            "HeightmapImporterService": {
+                "CancelImportHeightmap": "RobloxScriptSecurity",
+                "GetHeightmapPreviewAsync": "RobloxScriptSecurity",
+                "ImportHeightmap": "RobloxScriptSecurity",
+                "IsValidColormap": "RobloxScriptSecurity",
+                "IsValidHeightmap": "RobloxScriptSecurity",
+                "SetImportHeightmapPaused": "RobloxScriptSecurity"
+            },
+            "HopperBin": {
+                "Disable": "RobloxScriptSecurity",
+                "ToggleSelect": "RobloxScriptSecurity"
+            },
+            "HttpRbxApiService": {
+                "GetAsync": "RobloxScriptSecurity",
+                "GetAsyncFullUrl": "RobloxScriptSecurity",
+                "GetDocumentationUrl": "RobloxScriptSecurity",
+                "PostAsync": "RobloxScriptSecurity",
+                "PostAsyncFullUrl": "RobloxScriptSecurity",
+                "RequestAsync": "RobloxScriptSecurity"
+            },
+            "HttpRequest": {
+                "Cancel": "RobloxScriptSecurity",
+                "Start": "RobloxScriptSecurity"
+            },
+            "HttpService": {
+                "GetHttpEnabled": "RobloxScriptSecurity",
+                "GetUserAgent": "RobloxScriptSecurity",
+                "RequestInternal": "RobloxScriptSecurity",
+                "SetHttpEnabled": "RobloxScriptSecurity"
+            },
+            "Humanoid": {
+                "ApplyDescriptionClientServer": "RobloxScriptSecurity",
+                "CacheDefaults": "RobloxScriptSecurity",
+                "GetAccessoryHandleScale": "RobloxScriptSecurity",
+                "PlayEmoteAndGetAnimTrackById": "RobloxScriptSecurity",
+                "SetClickToWalkEnabled": "RobloxScriptSecurity"
+            },
+            "IXPService": {
+                "ClearUserLayers": "LocalUserSecurity",
+                "GetBrowserTrackerLayerLoadingStatus": "LocalUserSecurity",
+                "GetBrowserTrackerLayerVariables": "LocalUserSecurity",
+                "GetBrowserTrackerStatusForLayer": "LocalUserSecurity",
+                "GetRegisteredUserLayersToStatus": "LocalUserSecurity",
+                "GetUserLayerLoadingStatus": "LocalUserSecurity",
+                "GetUserLayerVariables": "LocalUserSecurity",
+                "GetUserStatusForLayer": "LocalUserSecurity",
+                "InitializeUserLayers": "LocalUserSecurity",
+                "LogBrowserTrackerLayerExposure": "LocalUserSecurity",
+                "LogUserLayerExposure": "LocalUserSecurity",
+                "RegisterUserLayers": "LocalUserSecurity"
+            },
+            "ImageButton": {
+                "SetEnableContentImageSizeChangedEvents": "RobloxScriptSecurity"
+            },
+            "ImageLabel": {
+                "SetEnableContentImageSizeChangedEvents": "RobloxScriptSecurity"
+            },
+            "InsertService": {
+                "CreateMeshPartAsync": "PluginSecurity",
+                "GetLocalFileContents": "RobloxScriptSecurity",
+                "LoadAssetWithFormat": "RobloxScriptSecurity",
+                "LoadLocalAsset": "RobloxScriptSecurity",
+                "LoadPackageAsset": "RobloxScriptSecurity",
+                "LoadPackageAssetAsync": "RobloxScriptSecurity"
+            },
+            "Instance": {
+                "GetDebugId": "PluginSecurity"
+            },
+            "KeyframeSequenceProvider": {
+                "GetKeyframeSequence": "PluginSecurity",
+                "GetKeyframeSequenceById": "PluginSecurity",
+                "GetMemStats": "RobloxScriptSecurity"
+            },
+            "LayerCollector": {
+                "GetGuiObjectsAtPosition": "RobloxScriptSecurity"
+            },
+            "LocalStorageService": {
+                "Flush": "RobloxScriptSecurity",
+                "GetItem": "RobloxScriptSecurity",
+                "SetItem": "RobloxScriptSecurity",
+                "WhenLoaded": "RobloxScriptSecurity"
+            },
+            "LocalizationService": {
+                "PromptDownloadGameTableToCSV": "RobloxScriptSecurity",
+                "PromptExportToCSVs": "RobloxScriptSecurity",
+                "PromptImportFromCSVs": "RobloxScriptSecurity",
+                "PromptUploadCSVToGameTable": "RobloxScriptSecurity",
+                "SetRobloxLocaleId": "RobloxScriptSecurity",
+                "StartTextScraper": "RobloxScriptSecurity",
+                "StopTextScraper": "RobloxScriptSecurity"
+            },
+            "LocalizationTable": {
+                "SetIsExemptFromUGCAnalytics": "RobloxScriptSecurity"
+            },
+            "LogReporterService": {
+                "ReportLog": "RobloxScriptSecurity"
+            },
+            "LogService": {
+                "ExecuteScript": "RobloxScriptSecurity",
+                "GetHttpResultHistory": "RobloxScriptSecurity",
+                "RequestHttpResultApproved": "RobloxScriptSecurity",
+                "RequestServerHttpResult": "RobloxScriptSecurity",
+                "RequestServerOutput": "RobloxScriptSecurity"
+            },
+            "MarketplaceService": {
+                "GetRobuxBalance": "RobloxScriptSecurity",
+                "GetSubscriptionPurchaseInfoAsync": "RobloxScriptSecurity",
+                "PerformBulkPurchase": "RobloxScriptSecurity",
+                "PerformPurchase": "RobloxScriptSecurity",
+                "PerformPurchaseV2": "RobloxScriptSecurity",
+                "PerformSubscriptionPurchase": "RobloxScriptSecurity",
+                "PerformSubscriptionPurchaseV2": "RobloxScriptSecurity",
+                "PlayerCanMakePurchases": "RobloxScriptSecurity",
+                "PrepareCollectiblesPurchase": "RobloxScriptSecurity",
+                "PromptCollectiblesPurchase": "RobloxScriptSecurity",
+                "PromptNativePurchase": "RobloxScriptSecurity",
+                "PromptNativePurchaseWithLocalPlayer": "RobloxScriptSecurity",
+                "PromptRobloxPurchase": "RobloxScriptSecurity",
+                "PromptThirdPartyPurchase": "LocalUserSecurity",
+                "ReportAssetSale": "RobloxScriptSecurity",
+                "ReportRobuxUpsellStarted": "RobloxScriptSecurity",
+                "SignalAssetTypePurchased": "RobloxScriptSecurity",
+                "SignalClientPurchaseSuccess": "RobloxScriptSecurity",
+                "SignalMockPurchasePremium": "RobloxScriptSecurity",
+                "SignalPromptBulkPurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptBundlePurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptGamePassPurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptPremiumPurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptProductPurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptPurchaseFinished": "RobloxScriptSecurity",
+                "SignalPromptSubscriptionPurchaseFinished": "RobloxScriptSecurity",
+                "SignalServerLuaDialogClosed": "RobloxScriptSecurity"
+            },
+            "MaterialGenerationService": {
+                "DEPRECATED_GenerateMaterialVariantsAync": "RobloxScriptSecurity",
+                "GenerateMaterialVariantsAsync": "RobloxScriptSecurity",
+                "StartSession": "RobloxScriptSecurity",
+                "UploadMaterialVariantsAsync": "RobloxScriptSecurity"
+            },
+            "MaterialGenerationSession": {
+                "GenerateImagesAsync": "RobloxScriptSecurity",
+                "GenerateMaterialMapsAsync": "RobloxScriptSecurity",
+                "UploadMaterialAsync": "RobloxScriptSecurity"
+            },
+            "MaterialService": {
+                "GetMaterialOverrideChanged": "RobloxScriptSecurity",
+                "GetOverrideStatus": "RobloxScriptSecurity",
+                "SetCurrentMaterial": "RobloxScriptSecurity"
+            },
+            "MemStorageConnection": {
+                "Disconnect": "PluginSecurity"
+            },
+            "MemStorageService": {
+                "Bind": "RobloxScriptSecurity",
+                "BindAndFire": "RobloxScriptSecurity",
+                "Call": "RobloxScriptSecurity",
+                "Fire": "RobloxScriptSecurity",
+                "GetItem": "RobloxScriptSecurity",
+                "HasItem": "RobloxScriptSecurity",
+                "RemoveItem": "RobloxScriptSecurity",
+                "SetItem": "RobloxScriptSecurity"
+            },
+            "MeshContentProvider": {
+                "GetContentMemoryData": "RobloxScriptSecurity"
+            },
+            "MessageBusConnection": {
+                "Disconnect": "RobloxScriptSecurity"
+            },
+            "MessageBusService": {
+                "Call": "RobloxScriptSecurity",
+                "GetLast": "RobloxScriptSecurity",
+                "GetMessageId": "RobloxScriptSecurity",
+                "GetProtocolMethodRequestMessageId": "RobloxScriptSecurity",
+                "GetProtocolMethodResponseMessageId": "RobloxScriptSecurity",
+                "MakeRequest": "RobloxScriptSecurity",
+                "Publish": "RobloxScriptSecurity",
+                "PublishProtocolMethodRequest": "RobloxScriptSecurity",
+                "PublishProtocolMethodResponse": "RobloxScriptSecurity",
+                "SetRequestHandler": "RobloxScriptSecurity",
+                "Subscribe": "RobloxScriptSecurity",
+                "SubscribeToProtocolMethodRequest": "RobloxScriptSecurity",
+                "SubscribeToProtocolMethodResponse": "RobloxScriptSecurity"
+            },
+            "MetaBreakpoint": {
+                "GetContextBreakpoints": "RobloxScriptSecurity",
+                "Remove": "RobloxScriptSecurity",
+                "SetChildBreakpointEnabledByScriptAndContext": "RobloxScriptSecurity",
+                "SetContextEnabled": "RobloxScriptSecurity",
+                "SetContinueExecution": "RobloxScriptSecurity",
+                "SetEnabled": "RobloxScriptSecurity",
+                "SetLine": "RobloxScriptSecurity",
+                "SetRemoveOnHit": "RobloxScriptSecurity"
+            },
+            "MetaBreakpointManager": {
+                "AddBreakpoint": "RobloxScriptSecurity",
+                "GetBreakpointById": "RobloxScriptSecurity",
+                "RemoveBreakpointById": "RobloxScriptSecurity"
+            },
+            "NetworkPeer": {
+                "SetOutgoingKBPSLimit": "PluginSecurity"
+            },
+            "Noise": {
+                "SampleDirectional": "RobloxScriptSecurity",
+                "SampleUniform": "RobloxScriptSecurity"
+            },
+            "NotificationService": {
+                "ActionEnabled": "RobloxScriptSecurity",
+                "ActionTaken": "RobloxScriptSecurity",
+                "CancelAllNotification": "LocalUserSecurity",
+                "CancelNotification": "LocalUserSecurity",
+                "GetScheduledNotifications": "LocalUserSecurity",
+                "ScheduleNotification": "LocalUserSecurity",
+                "SwitchedToAppShellFeature": "RobloxScriptSecurity"
+            },
+            "OmniRecommendationsService": {
+                "ClearSessionId": "RobloxScriptSecurity",
+                "GetSessionId": "RobloxScriptSecurity",
+                "MakeRequest": "RobloxScriptSecurity"
+            },
+            "OpenCloudService": {
+                "HttpRequestAsync": "RobloxScriptSecurity",
+                "RegisterOpenCloud": "RobloxScriptSecurity",
+                "RegistrationComplete": "RobloxScriptSecurity"
+            },
+            "PackageUIService": {
+                "ConvertToPackageUpload": "RobloxScriptSecurity",
+                "GetPackageInfo": "RobloxScriptSecurity",
+                "PublishPackage": "RobloxScriptSecurity",
+                "SetPackageVersion": "RobloxScriptSecurity"
+            },
+            "ParabolaAdornment": {
+                "FindPartOnParabola": "RobloxScriptSecurity"
+            },
+            "ParticleEmitter": {
+                "FastForward": "RobloxScriptSecurity"
+            },
+            "Path2D": {
+                "GetLength": "RobloxScriptSecurity",
+                "GetSegmentCount": "RobloxScriptSecurity"
+            },
+            "PermissionsService": {
+                "GetIsThirdPartyAssetAllowed": "RobloxScriptSecurity",
+                "GetIsThirdPartyPurchaseAllowed": "RobloxScriptSecurity",
+                "GetIsThirdPartyTeleportAllowed": "RobloxScriptSecurity",
+                "GetPermissions": "RobloxScriptSecurity",
+                "SetPermissions": "RobloxScriptSecurity"
+            },
+            "PhysicsService": {
+                "IkSolve": "RobloxScriptSecurity",
+                "LocalIkSolve": "LocalUserSecurity"
+            },
+            "PlacesService": {
+                "StartPlaySolo": "RobloxScriptSecurity",
+                "StopPlaySolo": "RobloxScriptSecurity"
+            },
+            "PlatformCloudStorageService": {
+                "GetUserDataAsync": "RobloxScriptSecurity",
+                "IsUserDataAvailable": "RobloxScriptSecurity",
+                "SetUserDataAsync": "RobloxScriptSecurity"
+            },
+            "PlatformFriendsService": {
+                "GetPartyMembers": "RobloxScriptSecurity",
+                "IsInviteFriendsEnabled": "RobloxScriptSecurity",
+                "IsProfileEnabled": "RobloxScriptSecurity",
+                "ShowInviteFriendsUI": "RobloxScriptSecurity",
+                "ShowProfile": "RobloxScriptSecurity"
+            },
+            "Player": {
+                "AddToBlockList": "RobloxScriptSecurity",
+                "GetFriendStatus": "RobloxScriptSecurity",
+                "GetUnder13": "RobloxScriptSecurity",
+                "LoadCharacterBlocking": "LocalUserSecurity",
+                "LoadData": "LocalUserSecurity",
+                "RemoveCharacter": "LocalUserSecurity",
+                "RequestFriendship": "RobloxScriptSecurity",
+                "RevokeFriendship": "RobloxScriptSecurity",
+                "SaveData": "LocalUserSecurity",
+                "SetAccountAge": "PluginSecurity",
+                "SetBlockListInitialized": "RobloxScriptSecurity",
+                "SetCharacterAppearanceJson": "RobloxScriptSecurity",
+                "SetChatTranslationSettingsLocaleId": "RobloxScriptSecurity",
+                "SetExperienceSettingsLocaleId": "RobloxScriptSecurity",
+                "SetMembershipType": "RobloxScriptSecurity",
+                "SetModerationAccessKey": "RobloxScriptSecurity",
+                "SetSuperSafeChat": "PluginSecurity",
+                "UpdatePlayerBlocked": "RobloxScriptSecurity"
+            },
+            "PlayerEmulatorService": {
+                "GetEmulatedPolicyInfo": "RobloxScriptSecurity",
+                "RegionCodeWillHaveAutomaticNonCustomPolicies": "RobloxScriptSecurity",
+                "SetEmulatedPolicyInfo": "RobloxScriptSecurity"
+            },
+            "PlayerScripts": {
+                "GetRegisteredComputerCameraMovementModes": "RobloxScriptSecurity",
+                "GetRegisteredComputerMovementModes": "RobloxScriptSecurity",
+                "GetRegisteredTouchCameraMovementModes": "RobloxScriptSecurity",
+                "GetRegisteredTouchMovementModes": "RobloxScriptSecurity"
+            },
+            "PlayerViewService": {
+                "GetDeviceCameraCFrameForSelfView": "RobloxScriptSecurity",
+                "OnCameraCFrameReplicationRequest": "RobloxScriptSecurity",
+                "UpdateDeviceCFrame": "RobloxScriptSecurity"
+            },
+            "Players": {
+                "Chat": "PluginSecurity",
+                "CreateLocalPlayer": "LocalUserSecurity",
+                "ReportAbuse": "LocalUserSecurity",
+                "ReportAbuseV3": "RobloxScriptSecurity",
+                "ResetLocalPlayer": "LocalUserSecurity",
+                "SetChatStyle": "PluginSecurity",
+                "SetLocalPlayerInfo": "RobloxScriptSecurity",
+                "TeamChat": "PluginSecurity",
+                "WhisperChat": "LocalUserSecurity"
+            },
+            "Plugin": {
+                "Activate": "PluginSecurity",
+                "CreateDockWidgetPluginGui": "PluginSecurity",
+                "CreatePluginAction": "PluginSecurity",
+                "CreatePluginMenu": "PluginSecurity",
+                "CreateQWidgetPluginGui": "RobloxScriptSecurity",
+                "CreateToolbar": "PluginSecurity",
+                "Deactivate": "PluginSecurity",
+                "GetItem": "RobloxScriptSecurity",
+                "GetJoinMode": "PluginSecurity",
+                "GetMouse": "PluginSecurity",
+                "GetPluginComponent": "RobloxScriptSecurity",
+                "GetSelectedRibbonTool": "PluginSecurity",
+                "GetSetting": "PluginSecurity",
+                "GetStudioUserId": "PluginSecurity",
+                "GetUri": "RobloxScriptSecurity",
+                "ImportFbxAnimation": "PluginSecurity",
+                "ImportFbxRig": "PluginSecurity",
+                "Intersect": "PluginSecurity",
+                "Invoke": "RobloxScriptSecurity",
+                "IsActivated": "PluginSecurity",
+                "IsActivatedWithExclusiveMouse": "PluginSecurity",
+                "Negate": "PluginSecurity",
+                "OnInvoke": "RobloxScriptSecurity",
+                "OnSetItem": "RobloxScriptSecurity",
+                "OpenScript": "PluginSecurity",
+                "OpenWikiPage": "PluginSecurity",
+                "PauseSound": "RobloxScriptSecurity",
+                "PlaySound": "RobloxScriptSecurity",
+                "PromptForExistingAssetId": "PluginSecurity",
+                "PromptSaveSelection": "PluginSecurity",
+                "ResumeSound": "RobloxScriptSecurity",
+                "SaveSelectedToRoblox": "PluginSecurity",
+                "SelectRibbonTool": "PluginSecurity",
+                "Separate": "PluginSecurity",
+                "SetItem": "RobloxScriptSecurity",
+                "SetReady": "RobloxScriptSecurity",
+                "SetSetting": "PluginSecurity",
+                "StartDecalDrag": "RobloxScriptSecurity",
+                "StartDrag": "PluginSecurity",
+                "StopAllSounds": "RobloxScriptSecurity",
+                "Union": "PluginSecurity"
+            },
+            "PluginGui": {
+                "GetRelativeMousePosition": "PluginSecurity"
+            },
+            "PluginManagementService": {
+                "GetOTAPluginVersion": "RobloxScriptSecurity",
+                "SetAutoUpdate": "RobloxScriptSecurity"
+            },
+            "PluginManager": {
+                "CreatePlugin": "PluginSecurity",
+                "ExportPlace": "PluginSecurity",
+                "ExportSelection": "PluginSecurity"
+            },
+            "PluginManagerInterface": {
+                "CreatePlugin": "PluginSecurity",
+                "ExportPlace": "PluginSecurity",
+                "ExportSelection": "PluginSecurity"
+            },
+            "PluginMenu": {
+                "AddAction": "PluginSecurity",
+                "AddMenu": "PluginSecurity",
+                "AddNewAction": "PluginSecurity",
+                "AddSeparator": "PluginSecurity",
+                "Clear": "PluginSecurity",
+                "ShowAsync": "PluginSecurity"
+            },
+            "PluginPolicyService": {
+                "GetPluginPolicy": "RobloxScriptSecurity"
+            },
+            "PluginToolbar": {
+                "CreateButton": "PluginSecurity",
+                "CreatePopupButton": "RobloxScriptSecurity"
+            },
+            "PluginToolbarButton": {
+                "SetActive": "PluginSecurity"
+            },
+            "PolicyService": {
+                "GetPolicyInfoForServerRobloxOnlyAsync": "RobloxScriptSecurity"
+            },
+            "ProjectFolderService": {
+                "ExportScripts": "RobloxScriptSecurity",
+                "ImportScripts": "RobloxScriptSecurity",
+                "SelectFolder": "RobloxScriptSecurity"
+            },
+            "PublishService": {
+                "CreateAssetAndWaitForAssetId": "RobloxScriptSecurity",
+                "CreateAssetOrAssetVersionAndPollAssetWithTelemetryAsync": "RobloxScriptSecurity",
+                "PublishCageMeshAsync": "RobloxScriptSecurity",
+                "PublishDescendantAssets": "RobloxScriptSecurity"
+            },
+            "RbxAnalyticsService": {
+                "AddGlobalPointsField": "RobloxScriptSecurity",
+                "AddGlobalPointsTag": "RobloxScriptSecurity",
+                "DEPRECATED_TrackEvent": "RobloxScriptSecurity",
+                "DEPRECATED_TrackEventWithArgs": "RobloxScriptSecurity",
+                "GetClientId": "RobloxScriptSecurity",
+                "GetPlaySessionId": "RobloxScriptSecurity",
+                "GetSessionId": "RobloxScriptSecurity",
+                "ReleaseRBXEventStream": "RobloxScriptSecurity",
+                "RemoveGlobalPointsField": "RobloxScriptSecurity",
+                "RemoveGlobalPointsTag": "RobloxScriptSecurity",
+                "ReportCounter": "RobloxScriptSecurity",
+                "ReportInfluxSeries": "RobloxScriptSecurity",
+                "ReportStats": "RobloxScriptSecurity",
+                "ReportToDiagByCountryCode": "RobloxScriptSecurity",
+                "SendEventDeferred": "RobloxScriptSecurity",
+                "SendEventImmediately": "RobloxScriptSecurity",
+                "SetRBXEvent": "RobloxScriptSecurity",
+                "SetRBXEventStream": "RobloxScriptSecurity",
+                "TrackEvent": "RobloxScriptSecurity",
+                "TrackEventWithArgs": "RobloxScriptSecurity",
+                "UpdateHeartbeatObject": "RobloxScriptSecurity"
+            },
+            "ReflectionService": {
+                "GetPropertyNames": "RobloxScriptSecurity"
+            },
+            "ReplicatedFirst": {
+                "IsDefaultLoadingGuiRemoved": "RobloxScriptSecurity",
+                "IsFinishedReplicating": "RobloxScriptSecurity",
+                "SetDefaultLoadingGuiRemoved": "RobloxScriptSecurity"
+            },
+            "RibbonNotificationService": {
+                "OnNotificationUpdateFromPlugin": "RobloxScriptSecurity"
+            },
+            "RunService": {
+                "GetCoreScriptVersion": "RobloxScriptSecurity",
+                "GetRobloxClientChannel": "RobloxScriptSecurity",
+                "GetRobloxGuiFocused": "RobloxScriptSecurity",
+                "GetRobloxVersion": "RobloxScriptSecurity",
+                "IsEdit": "PluginSecurity",
+                "Pause": "PluginSecurity",
+                "Reset": "PluginSecurity",
+                "Run": "PluginSecurity",
+                "Set3dRenderingEnabled": "RobloxScriptSecurity",
+                "SetRobloxGuiFocused": "RobloxScriptSecurity",
+                "Stop": "PluginSecurity",
+                "setThrottleFramerateEnabled": "RobloxScriptSecurity"
+            },
+            "SafetyService": {
+                "TakeScreenshot": "RobloxScriptSecurity"
+            },
+            "Script": {
+                "GetHash": "LocalUserSecurity"
+            },
+            "ScriptContext": {
+                "AddCoreScriptLocal": "RobloxScriptSecurity",
+                "ClearScriptProfilingData": "RobloxScriptSecurity",
+                "DeserializeScriptProfilerString": "RobloxScriptSecurity",
+                "GetCoverageStats": "RobloxScriptSecurity",
+                "GetLuauHeapInstanceReferenceReport": "RobloxScriptSecurity",
+                "GetLuauHeapMemoryReport": "RobloxScriptSecurity",
+                "GetScriptProfilingData": "RobloxScriptSecurity",
+                "SaveScriptProfilingData": "RobloxScriptSecurity",
+                "SetTimeout": "PluginSecurity",
+                "StartScriptProfiling": "RobloxScriptSecurity",
+                "StopScriptProfiling": "RobloxScriptSecurity"
+            },
+            "ScriptDocument": {
+                "CloseAsync": "PluginSecurity",
+                "EditTextAsync": "PluginSecurity",
+                "ForceSetSelectionAsync": "PluginSecurity",
+                "GetInternalUri": "RobloxScriptSecurity",
+                "GetLine": "PluginSecurity",
+                "GetLineCount": "PluginSecurity",
+                "GetScript": "PluginSecurity",
+                "GetSelectedText": "PluginSecurity",
+                "GetSelection": "PluginSecurity",
+                "GetSelectionEnd": "PluginSecurity",
+                "GetSelectionStart": "PluginSecurity",
+                "GetText": "PluginSecurity",
+                "GetViewport": "PluginSecurity",
+                "HasSelectedText": "PluginSecurity",
+                "IsCommandBar": "PluginSecurity",
+                "RequestSetSelectionAsync": "PluginSecurity"
+            },
+            "ScriptEditorService": {
+                "DeregisterAutocompleteCallback": "PluginSecurity",
+                "DeregisterScriptAnalysisCallback": "PluginSecurity",
+                "EditSourceAsyncWithRanges": "RobloxScriptSecurity",
+                "FindScriptDocument": "PluginSecurity",
+                "ForceReloadSource": "RobloxScriptSecurity",
+                "GetEditorSource": "PluginSecurity",
+                "GetScriptDocuments": "PluginSecurity",
+                "IsAutocompleteCallbackRegistered": "RobloxScriptSecurity",
+                "IsScriptAnalysisCallbackRegistered": "RobloxScriptSecurity",
+                "OpenScriptDocumentAsync": "PluginSecurity",
+                "RegisterAutocompleteCallback": "PluginSecurity",
+                "RegisterScriptAnalysisCallback": "PluginSecurity",
+                "StripComments": "RobloxScriptSecurity",
+                "UpdateSourceAsync": "PluginSecurity"
+            },
+            "ScriptProfilerService": {
+                "ClientRequestData": "PluginSecurity",
+                "ClientStart": "PluginSecurity",
+                "ClientStop": "PluginSecurity",
+                "DeserializeJSON": "PluginSecurity",
+                "SaveScriptProfilingData": "RobloxScriptSecurity",
+                "ServerRequestData": "PluginSecurity",
+                "ServerStart": "PluginSecurity",
+                "ServerStop": "PluginSecurity"
+            },
+            "ScriptRegistrationService": {
+                "GetSourceContainerByScriptGuid": "RobloxScriptSecurity"
+            },
+            "ScrollingFrame": {
+                "ClearInertialScrolling": "RobloxScriptSecurity",
+                "GetSampledInertialVelocity": "RobloxScriptSecurity",
+                "ScrollToTop": "RobloxScriptSecurity"
+            },
+            "Selection": {
+                "Add": "PluginSecurity",
+                "AddFocusCallback": "RobloxScriptSecurity",
+                "ClearTerrainSelectionHack": "RobloxScriptSecurity",
+                "Get": "PluginSecurity",
+                "Remove": "PluginSecurity",
+                "Set": "PluginSecurity",
+                "SetTerrainSelectionHack": "RobloxScriptSecurity"
+            },
+            "SessionService": {
+                "AcquireContextFocus": "RobloxScriptSecurity",
+                "GenerateSessionInfoString": "RobloxScriptSecurity",
+                "GetCreatedTimestampUtcMs": "RobloxScriptSecurity",
+                "GetMetadata": "RobloxScriptSecurity",
+                "GetRootSID": "RobloxScriptSecurity",
+                "GetSessionTag": "RobloxScriptSecurity",
+                "IsContextFocused": "RobloxScriptSecurity",
+                "ReleaseContextFocus": "RobloxScriptSecurity",
+                "RemoveMetadata": "RobloxScriptSecurity",
+                "RemoveSession": "RobloxScriptSecurity",
+                "RemoveSessionsWithMetadataKey": "RobloxScriptSecurity",
+                "ReplaceSession": "RobloxScriptSecurity",
+                "SessionExists": "RobloxScriptSecurity",
+                "SetMetadata": "RobloxScriptSecurity",
+                "SetSession": "RobloxScriptSecurity"
+            },
+            "ShorelineUpgraderService": {
+                "Cancel": "RobloxScriptSecurity",
+                "Start": "RobloxScriptSecurity"
+            },
+            "Smoke": {
+                "FastForward": "RobloxScriptSecurity"
+            },
+            "SmoothVoxelsUpgraderService": {
+                "Cancel": "RobloxScriptSecurity",
+                "Start": "RobloxScriptSecurity"
+            },
+            "SocialService": {
+                "InvokeGameInvitePromptClosed": "RobloxScriptSecurity",
+                "InvokeIrisInvite": "RobloxScriptSecurity",
+                "InvokeIrisInvitePromptClosed": "RobloxScriptSecurity"
+            },
+            "SoundService": {
+                "BeginRecording": "RobloxScriptSecurity",
+                "EndRecording": "RobloxScriptSecurity",
+                "GetInputDevice": "RobloxScriptSecurity",
+                "GetInputDevices": "RobloxScriptSecurity",
+                "GetOutputDevice": "RobloxScriptSecurity",
+                "GetOutputDevices": "RobloxScriptSecurity",
+                "GetRecordingDevices": "RobloxScriptSecurity",
+                "GetSoundMemoryData": "RobloxScriptSecurity",
+                "SetInputDevice": "RobloxScriptSecurity",
+                "SetOutputDevice": "RobloxScriptSecurity",
+                "SetRecordingDevice": "RobloxScriptSecurity"
+            },
+            "Sparkles": {
+                "FastForward": "RobloxScriptSecurity"
+            },
+            "StarterGui": {
+                "RegisterGetCore": "RobloxScriptSecurity",
+                "RegisterSetCore": "RobloxScriptSecurity"
+            },
+            "StarterPlayer": {
+                "ClearDefaults": "RobloxScriptSecurity"
+            },
+            "StartupMessageService": {
+                "GetStartupMessage": "RobloxScriptSecurity"
+            },
+            "Stats": {
+                "GetBrowserTrackerId": "RobloxScriptSecurity",
+                "GetPaginatedMemoryByTexture": "RobloxScriptSecurity"
+            },
+            "StatsItem": {
+                "GetValue": "PluginSecurity",
+                "GetValueString": "PluginSecurity"
+            },
+            "StopWatchReporter": {
+                "FinishTask": "RobloxScriptSecurity",
+                "SendReport": "RobloxScriptSecurity",
+                "StartTask": "RobloxScriptSecurity"
+            },
+            "StreamingService": {
+                "BindCodeToGuid": "RobloxScriptSecurity",
+                "ExecuteCommandAsync": "RobloxScriptSecurity",
+                "GetEphemeralVariable": "RobloxScriptSecurity",
+                "GetInstance": "RobloxScriptSecurity",
+                "InvokeCommand": "RobloxScriptSecurity",
+                "RegisterCommand": "RobloxScriptSecurity",
+                "RegisterContextCollector": "RobloxScriptSecurity",
+                "RegisterSequentialCommand": "RobloxScriptSecurity",
+                "RunSandboxedCode": "RobloxScriptSecurity",
+                "SetEphemeralVariable": "RobloxScriptSecurity",
+                "SetPluginInfoCallback": "RobloxScriptSecurity",
+                "UnregisterCommand": "RobloxScriptSecurity",
+                "UnregisterContextCollector": "RobloxScriptSecurity"
+            },
+            "Studio": {
+                "GetAvailableThemes": "PluginSecurity"
+            },
+            "StudioAssetService": {
+                "ConvertToPackageUpload": "RobloxScriptSecurity",
+                "DEPRECATED_SerializeInstances": "RobloxScriptSecurity",
+                "FireOnUGCSubmitCompleted": "RobloxScriptSecurity",
+                "PublishPackage": "RobloxScriptSecurity",
+                "RequestAvatarAutosetupAsync": "RobloxScriptSecurity",
+                "SerializeInstances": "RobloxScriptSecurity",
+                "ShowSaveToRoblox": "RobloxScriptSecurity",
+                "UpdatePublishedPackage": "RobloxScriptSecurity"
+            },
+            "StudioCallout": {
+                "SetOnNextClicked": "RobloxScriptSecurity"
+            },
+            "StudioDeviceEmulatorService": {
+                "ConnectGamepad": "RobloxScriptSecurity",
+                "DisconnectGamepad": "RobloxScriptSecurity",
+                "EmulatePCDeviceWithResolution": "RobloxScriptSecurity",
+                "GetCurrentDeviceId": "RobloxScriptSecurity",
+                "GetCurrentOrientation": "RobloxScriptSecurity",
+                "GetMaxNumTouches": "RobloxScriptSecurity",
+                "GetTouchInBounds": "RobloxScriptSecurity",
+                "GetTouchPosition": "RobloxScriptSecurity",
+                "HasDeviceWithId": "RobloxScriptSecurity",
+                "SendGamepadEvent": "RobloxScriptSecurity",
+                "SetCurrentDeviceId": "RobloxScriptSecurity",
+                "SetCurrentOrientation": "RobloxScriptSecurity"
+            },
+            "StudioPublishService": {
+                "ClearUploadNames": "RobloxScriptSecurity",
+                "GetLocalFilePath": "RobloxScriptSecurity",
+                "GetPlaceDisplayName": "RobloxScriptSecurity",
+                "PublishAs": "RobloxScriptSecurity",
+                "PublishThenTurnOnTeamCreate": "RobloxScriptSecurity",
+                "RefreshDocumentDisplayName": "RobloxScriptSecurity",
+                "SetTeamCreateOnPublishInfo": "RobloxScriptSecurity",
+                "SetUniverseDisplayName": "RobloxScriptSecurity",
+                "SetUploadNames": "RobloxScriptSecurity",
+                "ShowSaveOrPublishPlaceToRoblox": "RobloxScriptSecurity"
+            },
+            "StudioSdkService": {
+                "GetSdk": "RobloxScriptSecurity",
+                "SetSdk": "RobloxScriptSecurity"
+            },
+            "StudioService": {
+                "AnimationIdSelected": "RobloxScriptSecurity",
+                "CopyToClipboard": "RobloxScriptSecurity",
+                "GetBadgeConfigureUrl": "RobloxScriptSecurity",
+                "GetBadgeUploadUrl": "RobloxScriptSecurity",
+                "GetClassIcon": "PluginSecurity",
+                "GetPlaceIsPersistedToCloud": "RobloxScriptSecurity",
+                "GetResourceByCategory": "RobloxScriptSecurity",
+                "GetStartupAssetId": "RobloxScriptSecurity",
+                "GetStartupPluginId": "RobloxScriptSecurity",
+                "GetTermsOfUseUrl": "RobloxScriptSecurity",
+                "GetUserId": "PluginSecurity",
+                "GizmoRaycast": "PluginSecurity",
+                "HasInternalPermission": "RobloxScriptSecurity",
+                "IsPluginInstalled": "RobloxScriptSecurity",
+                "IsPluginUpToDate": "RobloxScriptSecurity",
+                "OpenInBrowser_DONOTUSE": "RobloxScriptSecurity",
+                "PromptImportFile": "PluginSecurity",
+                "PromptImportFiles": "PluginSecurity",
+                "RequestClose": "RobloxScriptSecurity",
+                "SetPluginEnabled": "RobloxScriptSecurity",
+                "ShowPlaceVersionHistoryDialog": "RobloxScriptSecurity",
+                "ShowPublishToRoblox": "RobloxScriptSecurity",
+                "TryInstallPlugin": "RobloxScriptSecurity",
+                "UninstallPlugin": "RobloxScriptSecurity",
+                "UpdatePluginManagement": "RobloxScriptSecurity"
+            },
+            "StudioTheme": {
+                "GetColor": "PluginSecurity"
+            },
+            "StudioWidget": {
+                "SetFixedSize": "RobloxScriptSecurity"
+            },
+            "StudioWidgetsService": {
+                "ApplyFillInBox": "RobloxScriptSecurity",
+                "ApplyHighlight": "RobloxScriptSecurity",
+                "ApplyShadows": "RobloxScriptSecurity",
+                "ApplySpotlight": "RobloxScriptSecurity",
+                "AttachPluginGui": "RobloxScriptSecurity",
+                "GetWidgetFromLabel": "RobloxScriptSecurity",
+                "GetWidgetFromPluginGui": "RobloxScriptSecurity",
+                "HideSpotlight": "RobloxScriptSecurity"
+            },
+            "StyleRule": {
+                "GetPropertiesResolved": "RobloxScriptSecurity",
+                "GetPropertyResolved": "RobloxScriptSecurity"
+            },
+            "StylingService": {
+                "GetAppliedStyles": "RobloxScriptSecurity",
+                "GetStyleInfo": "RobloxScriptSecurity",
+                "GetStyleSheetDerivesChain": "RobloxScriptSecurity",
+                "GetStyleSheetInfo": "RobloxScriptSecurity"
+            },
+            "TeamCreateService": {
+                "CloseGameIfUserDoesntHavePerms": "RobloxScriptSecurity"
+            },
+            "TeleportService": {
+                "Block": "RobloxScriptSecurity",
+                "TeleportCancel": "RobloxScriptSecurity",
+                "UnblockAsync": "RobloxScriptSecurity"
+            },
+            "Terrain": {
+                "CanShorelinesBeUpgraded": "RobloxScriptSecurity",
+                "CanSmoothVoxelsBeUpgraded": "RobloxScriptSecurity",
+                "ConvertToSmooth": "PluginSecurity",
+                "GetTerrainWireframe": "RobloxScriptSecurity",
+                "ReplaceMaterialInTransform": "RobloxScriptSecurity",
+                "ReplaceMaterialInTransformSubregion": "RobloxScriptSecurity",
+                "SetMaterialInTransform": "RobloxScriptSecurity",
+                "SetMaterialInTransformSubregion": "RobloxScriptSecurity",
+                "SmoothRegion": "RobloxScriptSecurity"
+            },
+            "TerrainRegion": {
+                "ApplyTransform": "RobloxScriptSecurity",
+                "ApplyTransformSubregion": "RobloxScriptSecurity",
+                "ConvertToSmooth": "PluginSecurity",
+                "GetRegionWireframe": "RobloxScriptSecurity"
+            },
+            "TestService": {
+                "Run": "PluginSecurity"
+            },
+            "TextBox": {
+                "ResetKeyboardMode": "RobloxScriptSecurity",
+                "SetTextFromInput": "RobloxScriptSecurity"
+            },
+            "TextButton": {
+                "SetTextFromInput": "RobloxScriptSecurity"
+            },
+            "TextLabel": {
+                "SetTextFromInput": "RobloxScriptSecurity"
+            },
+            "TextService": {
+                "GetFontMemoryData": "RobloxScriptSecurity",
+                "SetResolutionScale": "RobloxScriptSecurity"
+            },
+            "TextureGenerationPartGroup": {
+                "GetInstances": "RobloxScriptSecurity",
+                "GetMeshIdsHash": "RobloxScriptSecurity"
+            },
+            "TextureGenerationService": {
+                "CancelGenerationRequest": "RobloxScriptSecurity",
+                "CreatePartGroup": "RobloxScriptSecurity",
+                "GenerateTexture": "RobloxScriptSecurity",
+                "GetQuotasAsync": "RobloxScriptSecurity",
+                "PreviewTexture": "RobloxScriptSecurity"
+            },
+            "TextureGenerationUnwrappingRequest": {
+                "ApplyToDataModel": "RobloxScriptSecurity",
+                "GetPartGroup": "RobloxScriptSecurity"
+            },
+            "ThirdPartyUserService": {
+                "GetUserPlatformId": "RobloxScriptSecurity",
+                "GetUserPlatformName": "RobloxScriptSecurity",
+                "HaveActiveUser": "RobloxScriptSecurity",
+                "IsOver13": "RobloxScriptSecurity",
+                "RegisterActiveUser": "RobloxScriptSecurity",
+                "ReturnToEngagement": "RobloxScriptSecurity",
+                "ShowAccountPicker": "RobloxScriptSecurity"
+            },
+            "ThreadState": {
+                "GetFrame": "RobloxScriptSecurity"
+            },
+            "ToastNotificationService": {
+                "HideNotification": "RobloxScriptSecurity",
+                "ShowNotification": "RobloxScriptSecurity"
+            },
+            "TracerService": {
+                "FinishSpan": "RobloxScriptSecurity",
+                "StartSpan": "RobloxScriptSecurity"
+            },
+            "TrackerLodController": {
+                "getExtrapolation": "RobloxScriptSecurity",
+                "getVideoLod": "RobloxScriptSecurity",
+                "isAudioEnabled": "RobloxScriptSecurity",
+                "isVideoEnabled": "RobloxScriptSecurity"
+            },
+            "Translator": {
+                "RobloxOnlyTranslate": "RobloxScriptSecurity"
+            },
+            "TutorialService": {
+                "GetMainViewSessionId": "RobloxScriptSecurity",
+                "GetStudioWidgetFromLabel": "RobloxScriptSecurity",
+                "GetTutorialIDToLaunch": "RobloxScriptSecurity",
+                "HasUserCompletedTutorial": "RobloxScriptSecurity",
+                "HideWidgets": "RobloxScriptSecurity",
+                "PromptClosePlace": "RobloxScriptSecurity",
+                "SetTutorialCompletionStatus": "RobloxScriptSecurity",
+                "ShouldLaunchTutorial": "RobloxScriptSecurity",
+                "ShowWidgets": "RobloxScriptSecurity"
+            },
+            "UGCValidationService": {
+                "CalculateEditableMeshUniqueUVCount": "RobloxScriptSecurity",
+                "CalculateUniqueUVCount": "RobloxScriptSecurity",
+                "CanLoadAsset": "RobloxScriptSecurity",
+                "CheckEditableMeshInCameraFrustum": "RobloxScriptSecurity",
+                "CheckMeshInCameraFrustum": "RobloxScriptSecurity",
+                "CompareTextureOverlapByteString": "RobloxScriptSecurity",
+                "CompareTextureOverlapTextureId": "RobloxScriptSecurity",
+                "FetchAssetWithFormat": "RobloxScriptSecurity",
+                "GetDynamicHeadEditableMeshInactiveControls": "RobloxScriptSecurity",
+                "GetDynamicHeadMeshInactiveControls": "RobloxScriptSecurity",
+                "GetEditableImageSize": "RobloxScriptSecurity",
+                "GetEditableMeshTriCount": "RobloxScriptSecurity",
+                "GetEditableMeshVertColors": "RobloxScriptSecurity",
+                "GetEditableMeshVerts": "RobloxScriptSecurity",
+                "GetMeshTriCount": "RobloxScriptSecurity",
+                "GetMeshVertColors": "RobloxScriptSecurity",
+                "GetMeshVerts": "RobloxScriptSecurity",
+                "GetPropertyValue": "RobloxScriptSecurity",
+                "GetTextureSize": "RobloxScriptSecurity",
+                "RegisterUGCValidationFunction": "RobloxScriptSecurity",
+                "ResetCollisionFidelity": "RobloxScriptSecurity",
+                "ResetCollisionFidelityWithEditableMeshDataLua": "RobloxScriptSecurity",
+                "SetMeshIdBlocking": "RobloxScriptSecurity",
+                "ValidateCageMeshIntersection": "RobloxScriptSecurity",
+                "ValidateCageNonManifoldAndHoles": "RobloxScriptSecurity",
+                "ValidateCageUVCoincident": "RobloxScriptSecurity",
+                "ValidateCageUVTriangleArea": "RobloxScriptSecurity",
+                "ValidateDynamicHeadEditableMesh": "RobloxScriptSecurity",
+                "ValidateDynamicHeadMesh": "RobloxScriptSecurity",
+                "ValidateEditableImageNumTextureChannels": "RobloxScriptSecurity",
+                "ValidateEditableImageSize": "RobloxScriptSecurity",
+                "ValidateEditableMeshBounds": "RobloxScriptSecurity",
+                "ValidateEditableMeshCageMeshIntersection": "RobloxScriptSecurity",
+                "ValidateEditableMeshCageNonManifoldAndHoles": "RobloxScriptSecurity",
+                "ValidateEditableMeshCageUVCoincident": "RobloxScriptSecurity",
+                "ValidateEditableMeshCageUVTriangleArea": "RobloxScriptSecurity",
+                "ValidateEditableMeshFullBodyCageDeletion": "RobloxScriptSecurity",
+                "ValidateEditableMeshMisMatchUV": "RobloxScriptSecurity",
+                "ValidateEditableMeshOverlappingVertices": "RobloxScriptSecurity",
+                "ValidateEditableMeshTriangleArea": "RobloxScriptSecurity",
+                "ValidateEditableMeshTriangles": "RobloxScriptSecurity",
+                "ValidateEditableMeshUVSpace": "RobloxScriptSecurity",
+                "ValidateEditableMeshUVValuesInReference": "RobloxScriptSecurity",
+                "ValidateEditableMeshUniqueUVCount": "RobloxScriptSecurity",
+                "ValidateEditableMeshVertColors": "RobloxScriptSecurity",
+                "ValidateFullBodyCageDeletion": "RobloxScriptSecurity",
+                "ValidateImageTransparencyThresholdByteString": "RobloxScriptSecurity",
+                "ValidateImageTransparencyThresholdTextureID": "RobloxScriptSecurity",
+                "ValidateMeshBounds": "RobloxScriptSecurity",
+                "ValidateMeshTriangleArea": "RobloxScriptSecurity",
+                "ValidateMeshTriangles": "RobloxScriptSecurity",
+                "ValidateMeshVertColors": "RobloxScriptSecurity",
+                "ValidateMisMatchUV": "RobloxScriptSecurity",
+                "ValidateNumTextureChannels": "RobloxScriptSecurity",
+                "ValidateOverlappingVertices": "RobloxScriptSecurity",
+                "ValidateSkinnedEditableMesh": "RobloxScriptSecurity",
+                "ValidateSkinnedMesh": "RobloxScriptSecurity",
+                "ValidateTextureAlpha": "RobloxScriptSecurity",
+                "ValidateTextureAlphaByteString": "RobloxScriptSecurity",
+                "ValidateTextureSize": "RobloxScriptSecurity",
+                "ValidateUVSpace": "RobloxScriptSecurity",
+                "ValidateUVValuesInReference": "RobloxScriptSecurity",
+                "ValidateUniqueUVCount": "RobloxScriptSecurity"
+            },
+            "UnvalidatedAssetService": {
+                "AppendTempAssetId": "RobloxScriptSecurity",
+                "AppendVantagePoint": "RobloxScriptSecurity",
+                "UpgradeTempAssetId": "RobloxScriptSecurity"
+            },
+            "UserGameSettings": {
+                "GetDefaultFramerateCap": "RobloxScriptSecurity",
+                "GetTutorialState": "RobloxScriptSecurity",
+                "ResetOnboardingCompleted": "RobloxScriptSecurity",
+                "SetTutorialState": "RobloxScriptSecurity"
+            },
+            "UserInputService": {
+                "GetDeviceType": "RobloxScriptSecurity",
+                "GetPlatform": "RobloxScriptSecurity",
+                "SendAppUISizes": "RobloxScriptSecurity"
+            },
+            "UserSettings": {
+                "SaveState": "RobloxScriptSecurity"
+            },
+            "VRService": {
+                "IsMaquettes": "RobloxScriptSecurity",
+                "IsVRAppBuild": "RobloxScriptSecurity"
+            },
+            "VideoCaptureService": {
+                "GetCameraDevices": "RobloxScriptSecurity"
+            },
+            "VideoFrame": {
+                "SetStudioPreview": "RobloxScriptSecurity"
+            },
+            "ViewportFrame": {
+                "CaptureSnapshotAsync": "RobloxScriptSecurity"
+            },
+            "VirtualInputManager": {
+                "Dump": "RobloxScriptSecurity",
+                "HandleGamepadAxisInput": "RobloxScriptSecurity",
+                "HandleGamepadButtonInput": "RobloxScriptSecurity",
+                "HandleGamepadConnect": "RobloxScriptSecurity",
+                "HandleGamepadDisconnect": "RobloxScriptSecurity",
+                "SendAccelerometerEvent": "RobloxScriptSecurity",
+                "SendGravityEvent": "RobloxScriptSecurity",
+                "SendGyroscopeEvent": "RobloxScriptSecurity",
+                "SendKeyEvent": "RobloxScriptSecurity",
+                "SendMouseButtonEvent": "RobloxScriptSecurity",
+                "SendMouseMoveEvent": "RobloxScriptSecurity",
+                "SendMouseWheelEvent": "RobloxScriptSecurity",
+                "SendTextInputCharacterEvent": "RobloxScriptSecurity",
+                "SendTouchEvent": "RobloxScriptSecurity",
+                "SetInputTypesToIgnore": "RobloxScriptSecurity",
+                "StartPlaying": "RobloxScriptSecurity",
+                "StartPlayingJSON": "RobloxScriptSecurity",
+                "StartRecording": "RobloxScriptSecurity",
+                "StopPlaying": "RobloxScriptSecurity",
+                "StopRecording": "RobloxScriptSecurity",
+                "WaitForInputEventsProcessed": "RobloxScriptSecurity",
+                "sendRobloxEvent": "RobloxScriptSecurity",
+                "sendThemeChangeEvent": "RobloxScriptSecurity"
+            },
+            "VirtualUser": {
+                "Button1Down": "LocalUserSecurity",
+                "Button1Up": "LocalUserSecurity",
+                "Button2Down": "LocalUserSecurity",
+                "Button2Up": "LocalUserSecurity",
+                "CaptureController": "LocalUserSecurity",
+                "ClickButton1": "LocalUserSecurity",
+                "ClickButton2": "LocalUserSecurity",
+                "MoveMouse": "LocalUserSecurity",
+                "SetKeyDown": "LocalUserSecurity",
+                "SetKeyUp": "LocalUserSecurity",
+                "StartRecording": "LocalUserSecurity",
+                "StopRecording": "LocalUserSecurity",
+                "TypeKey": "LocalUserSecurity"
+            },
+            "VoiceChatInternal": {
+                "GetAndClearCallFailureMessage": "RobloxScriptSecurity",
+                "GetChannelId": "RobloxScriptSecurity",
+                "GetGroupId": "RobloxScriptSecurity",
+                "GetSessionId": "RobloxScriptSecurity",
+                "GetVoiceExperienceId": "RobloxScriptSecurity",
+                "IsContextVoiceEnabled": "RobloxScriptSecurity",
+                "LogPublisherWebRTCStats": "RobloxScriptSecurity",
+                "LogSubscriptionWebRTCStats": "RobloxScriptSecurity",
+                "SubscribeBlock": "RobloxScriptSecurity",
+                "SubscribeRetry": "RobloxScriptSecurity",
+                "SubscribeUnblock": "RobloxScriptSecurity"
+            },
+            "Workspace": {
+                "BreakJoints": "PluginSecurity",
+                "CalculateJumpDistance": "RobloxScriptSecurity",
+                "CalculateJumpHeight": "RobloxScriptSecurity",
+                "CalculateJumpPower": "RobloxScriptSecurity",
+                "ExperimentalSolverIsEnabled": "LocalUserSecurity",
+                "MakeJoints": "PluginSecurity",
+                "SetAvatarUnificationMode": "RobloxScriptSecurity",
+                "SetMeshPartHeadsAndAccessories": "RobloxScriptSecurity",
+                "SetPhysicsThrottleEnabled": "LocalUserSecurity",
+                "ZoomToExtents": "PluginSecurity"
+            },
+            "WorldRoot": {
+                "CacheCurrentTerrain": "RobloxScriptSecurity",
+                "ClearCachedTerrain": "RobloxScriptSecurity",
+                "IKMoveTo": "PluginSecurity",
+                "RaycastCachedTerrain": "RobloxScriptSecurity",
+                "SetInsertPoint": "RobloxScriptSecurity",
+                "StepPhysics": "PluginSecurity"
+            }
+        },
+        "Property": {
+            "AdPortal": {
+                "PortalVersion": "RobloxScriptSecurity"
+            },
+            "AnalyticsService": {
+                "ApiKey": "LocalUserSecurity"
+            },
+            "AnimationClip": {
+                "Guid": "RobloxScriptSecurity",
+                "GuidBinaryString": "RobloxScriptSecurity"
+            },
+            "AudioDeviceInput": {
+                "Active": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "IsReady": "RobloxScriptSecurity"
+            },
+            "AudioPlayer": {
+                "IsPlaying": "Read"
+            },
+            "AvatarChatService": {
+                "ClientFeatures": "RobloxScriptSecurity",
+                "ClientFeaturesInitialized": "RobloxScriptSecurity",
+                "ServerFeatures": "Read"
+            },
+            "BasePart": {
+                "CollisionGroupReplicate": "RobloxScriptSecurity"
+            },
+            "BaseScript": {
+                "RunContext": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "BaseWrap": {
+                "CageMeshId": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "CageOrigin": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "ImportInProcess": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "ImportOrigin": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "Breakpoint": {
+                "Condition": "RobloxScriptSecurity",
+                "ContinueExecution": "RobloxScriptSecurity",
+                "Enabled": "RobloxScriptSecurity",
+                "Id": "RobloxScriptSecurity",
+                "Line": "RobloxScriptSecurity",
+                "LogMessage": "RobloxScriptSecurity",
+                "MetaBreakpointId": "RobloxScriptSecurity",
+                "RemoveOnHit": "RobloxScriptSecurity",
+                "Script": "RobloxScriptSecurity",
+                "Valid": "RobloxScriptSecurity",
+                "Verified": "RobloxScriptSecurity"
+            },
+            "Chat": {
+                "LoadDefaultChat": "Read"
+            },
+            "ChatInputBarConfiguration": {
+                "AbsolutePositionWrite": "RobloxScriptSecurity",
+                "AbsoluteSizeWrite": "RobloxScriptSecurity",
+                "IsFocusedWrite": "RobloxScriptSecurity"
+            },
+            "ChatWindowConfiguration": {
+                "AbsolutePositionWrite": "RobloxScriptSecurity",
+                "AbsoluteSizeWrite": "RobloxScriptSecurity"
+            },
+            "CommandInstance": {
+                "Checked": "RobloxScriptSecurity",
+                "DefaultShortcut": "RobloxScriptSecurity",
+                "Enabled": "RobloxScriptSecurity",
+                "Icon": "RobloxScriptSecurity",
+                "Permission": "RobloxScriptSecurity",
+                "StatusTip": "RobloxScriptSecurity"
+            },
+            "ConnectivityService": {
+                "NetworkStatus": "RobloxScriptSecurity"
+            },
+            "CoreGui": {
+                "SelectionImageObject": "RobloxScriptSecurity"
+            },
+            "DataModel": {
+                "IsSFFlagsLoaded": "RobloxScriptSecurity"
+            },
+            "DataModelSession": {
+                "CurrentDataModelType": "RobloxScriptSecurity",
+                "SessionId": "RobloxScriptSecurity"
+            },
+            "DataStoreService": {
+                "AutomaticRetry": "LocalUserSecurity",
+                "LegacyNamingScheme": "LocalUserSecurity"
+            },
+            "DebuggerConnection": {
+                "ErrorMessage": "RobloxScriptSecurity",
+                "HasError": "RobloxScriptSecurity",
+                "Id": "RobloxScriptSecurity",
+                "IsPaused": "RobloxScriptSecurity"
+            },
+            "DebuggerConnectionManager": {
+                "Timeout": "RobloxScriptSecurity"
+            },
+            "DebuggerLuaResponse": {
+                "IsError": "RobloxScriptSecurity",
+                "IsSuccess": "RobloxScriptSecurity",
+                "Message": "RobloxScriptSecurity",
+                "RequestId": "RobloxScriptSecurity",
+                "Status": "RobloxScriptSecurity"
+            },
+            "DebuggerVariable": {
+                "Name": "RobloxScriptSecurity",
+                "Populated": "RobloxScriptSecurity",
+                "Type": "RobloxScriptSecurity",
+                "Value": "RobloxScriptSecurity",
+                "VariableId": "RobloxScriptSecurity",
+                "VariablesCount": "RobloxScriptSecurity"
+            },
+            "DraggerService": {
+                "HoverLineThickness": "RobloxScriptSecurity",
+                "PartSnapEnabled": "RobloxScriptSecurity",
+                "PivotSnapToGeometry": "RobloxScriptSecurity"
+            },
+            "ExperienceStateCaptureService": {
+                "IsInCaptureMode": "RobloxScriptSecurity"
+            },
+            "FaceAnimatorService": {
+                "AudioAnimationEnabled": "RobloxScriptSecurity",
+                "FaceTrackingStatusEnum": "RobloxScriptSecurity",
+                "FlipHeadOrientation": "RobloxScriptSecurity",
+                "VideoAnimationEnabled": "RobloxScriptSecurity"
+            },
+            "FaceControls": {
+                "ChinRaiser": "PluginSecurity",
+                "ChinRaiserUpperLip": "PluginSecurity",
+                "Corrugator": "PluginSecurity",
+                "EyesLookDown": "PluginSecurity",
+                "EyesLookLeft": "PluginSecurity",
+                "EyesLookRight": "PluginSecurity",
+                "EyesLookUp": "PluginSecurity",
+                "FlatPucker": "PluginSecurity",
+                "Funneler": "PluginSecurity",
+                "JawDrop": "PluginSecurity",
+                "JawLeft": "PluginSecurity",
+                "JawRight": "PluginSecurity",
+                "LeftBrowLowerer": "PluginSecurity",
+                "LeftCheekPuff": "PluginSecurity",
+                "LeftCheekRaiser": "PluginSecurity",
+                "LeftDimpler": "PluginSecurity",
+                "LeftEyeClosed": "PluginSecurity",
+                "LeftEyeUpperLidRaiser": "PluginSecurity",
+                "LeftInnerBrowRaiser": "PluginSecurity",
+                "LeftLipCornerDown": "PluginSecurity",
+                "LeftLipCornerPuller": "PluginSecurity",
+                "LeftLipStretcher": "PluginSecurity",
+                "LeftLowerLipDepressor": "PluginSecurity",
+                "LeftNoseWrinkler": "PluginSecurity",
+                "LeftOuterBrowRaiser": "PluginSecurity",
+                "LeftUpperLipRaiser": "PluginSecurity",
+                "LipPresser": "PluginSecurity",
+                "LipsTogether": "PluginSecurity",
+                "LowerLipSuck": "PluginSecurity",
+                "MouthLeft": "PluginSecurity",
+                "MouthRight": "PluginSecurity",
+                "Pucker": "PluginSecurity",
+                "RightBrowLowerer": "PluginSecurity",
+                "RightCheekPuff": "PluginSecurity",
+                "RightCheekRaiser": "PluginSecurity",
+                "RightDimpler": "PluginSecurity",
+                "RightEyeClosed": "PluginSecurity",
+                "RightEyeUpperLidRaiser": "PluginSecurity",
+                "RightInnerBrowRaiser": "PluginSecurity",
+                "RightLipCornerDown": "PluginSecurity",
+                "RightLipCornerPuller": "PluginSecurity",
+                "RightLipStretcher": "PluginSecurity",
+                "RightLowerLipDepressor": "PluginSecurity",
+                "RightNoseWrinkler": "PluginSecurity",
+                "RightOuterBrowRaiser": "PluginSecurity",
+                "RightUpperLipRaiser": "PluginSecurity",
+                "TongueDown": "PluginSecurity",
+                "TongueOut": "PluginSecurity",
+                "TongueUp": "PluginSecurity",
+                "UpperLipSuck": "PluginSecurity"
+            },
+            "FacialAnimationRecordingService": {
+                "BiometricDataConsent": "RobloxScriptSecurity"
+            },
+            "FacialAnimationStreamingServiceV2": {
+                "ServiceState": "RobloxScriptSecurity"
+            },
+            "File": {
+                "Size": "PluginSecurity"
+            },
+            "GameSettings": {
+                "VideoRecording": "Read"
+            },
+            "GamepadService": {
+                "GamepadCursorEnabled": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                }
+            },
+            "GoogleAnalyticsConfiguration": {
+                "gaID": "RobloxScriptSecurity"
+            },
+            "GuiBase2d": {
+                "ClippedRect": "RobloxScriptSecurity",
+                "IsNotOccluded": "RobloxScriptSecurity",
+                "RawRect2D": "RobloxScriptSecurity",
+                "TotalGroupScale": "RobloxScriptSecurity"
+            },
+            "GuiService": {
+                "CoreEffectFolder": "RobloxScriptSecurity",
+                "CoreGuiFolder": "RobloxScriptSecurity",
+                "SelectedCoreObject": "RobloxScriptSecurity"
+            },
+            "Highlight": {
+                "LineThickness": "RobloxScriptSecurity",
+                "ReservedId": "RobloxScriptSecurity"
+            },
+            "HttpService": {
+                "HttpEnabled": {
+                    "Read": "None",
+                    "Write": "LocalUserSecurity"
+                }
+            },
+            "Humanoid": {
+                "CollisionType": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "InternalDisplayName": "RobloxScriptSecurity"
+            },
+            "HumanoidDescription": {
+                "AccessoryRigidAndLayeredBlob": "RobloxScriptSecurity",
+                "NumberEmotesLoaded": "RobloxScriptSecurity"
+            },
+            "ImageButton": {
+                "ContentImageSize": "RobloxScriptSecurity"
+            },
+            "ImageLabel": {
+                "ContentImageSize": "RobloxScriptSecurity"
+            },
+            "Instance": {
+                "DataCost": "LocalUserSecurity",
+                "RobloxLocked": "PluginSecurity",
+                "SourceAssetId": "RobloxScriptSecurity"
+            },
+            "InternalSyncItem": {
+                "AutoSync": "RobloxScriptSecurity",
+                "Enabled": "RobloxScriptSecurity",
+                "Path": "RobloxScriptSecurity",
+                "Target": "RobloxScriptSecurity"
+            },
+            "KeyframeSequence": {
+                "AuthoredHipHeight": "PluginSecurity"
+            },
+            "Lighting": {
+                "TempUseNewSkyRemovalBehaviour": "RobloxScriptSecurity"
+            },
+            "LocalizationService": {
+                "ForcePlayModeGameLocaleId": "LocalUserSecurity",
+                "ForcePlayModeRobloxLocaleId": "LocalUserSecurity",
+                "IsTextScraperRunning": "RobloxScriptSecurity",
+                "RobloxForcePlayModeGameLocaleId": "RobloxScriptSecurity",
+                "RobloxForcePlayModeRobloxLocaleId": "RobloxScriptSecurity",
+                "ShouldUseCloudTable": "RobloxScriptSecurity"
+            },
+            "MaterialService": {
+                "Use2022Materials": "RobloxScriptSecurity"
+            },
+            "MaterialVariant": {
+                "BaseMaterial": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "ColorMap": "PluginSecurity",
+                "MetalnessMap": "PluginSecurity",
+                "NormalMap": "PluginSecurity",
+                "RoughnessMap": "PluginSecurity"
+            },
+            "MeshPart": {
+                "DoubleSided": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "HasJointOffset": "Read",
+                "HasSkinnedMesh": "Read",
+                "JointOffset": "Read",
+                "MeshId": "Read",
+                "RenderFidelity": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "RenderFidelityReplicate": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "MetaBreakpoint": {
+                "Condition": "RobloxScriptSecurity",
+                "ContinueExecution": "RobloxScriptSecurity",
+                "Enabled": "RobloxScriptSecurity",
+                "Id": "RobloxScriptSecurity",
+                "IsLogpoint": "RobloxScriptSecurity",
+                "Line": "RobloxScriptSecurity",
+                "LogMessage": "RobloxScriptSecurity",
+                "RemoveOnHit": "RobloxScriptSecurity",
+                "Script": "RobloxScriptSecurity",
+                "Valid": "RobloxScriptSecurity"
+            },
+            "Model": {
+                "LevelOfDetail": "PluginSecurity"
+            },
+            "ModuleScript": {
+                "Source": "PluginSecurity"
+            },
+            "MultipleDocumentInterfaceInstance": {
+                "FocusedDataModelSession": "RobloxScriptSecurity"
+            },
+            "NetworkSettings": {
+                "EmulatedTotalMemoryInMB": "PluginSecurity",
+                "FreeMemoryMBytes": "PluginSecurity",
+                "HttpProxyEnabled": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "HttpProxyURL": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                }
+            },
+            "Noise": {
+                "NoiseType": "RobloxScriptSecurity",
+                "Seed": "RobloxScriptSecurity"
+            },
+            "NotificationService": {
+                "IsConnected": "RobloxScriptSecurity",
+                "IsLuaChatEnabled": "RobloxScriptSecurity",
+                "IsLuaGameDetailsEnabled": "RobloxScriptSecurity",
+                "SelectedTheme": "RobloxScriptSecurity"
+            },
+            "PackageLink": {
+                "DefaultName": "Read",
+                "SerializedDefaultAttributes": "Read",
+                "Status": "RobloxScriptSecurity",
+                "VersionNumber": "Read"
+            },
+            "ParabolaAdornment": {
+                "A": "RobloxScriptSecurity",
+                "B": "RobloxScriptSecurity",
+                "C": "RobloxScriptSecurity",
+                "Range": "RobloxScriptSecurity",
+                "Thickness": "RobloxScriptSecurity"
+            },
+            "PartOperation": {
+                "RenderFidelity": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "SmoothingAngle": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "Path2D": {
+                "PropertiesSerialize": "RobloxScriptSecurity",
+                "SelectedControlPoint": "RobloxScriptSecurity",
+                "SelectedControlPointData": "RobloxScriptSecurity",
+                "Transparency": "RobloxScriptSecurity"
+            },
+            "PausedState": {
+                "AllThreadsPaused": "RobloxScriptSecurity",
+                "Reason": "RobloxScriptSecurity",
+                "ThreadId": "RobloxScriptSecurity"
+            },
+            "PausedStateBreakpoint": {
+                "Breakpoint": "RobloxScriptSecurity"
+            },
+            "PausedStateException": {
+                "ExceptionText": "RobloxScriptSecurity"
+            },
+            "PhysicsSettings": {
+                "AreAssemblyCentersOfMassShown": "RobloxScriptSecurity",
+                "AreCollisionCostsShown": "RobloxScriptSecurity",
+                "AreConstraintForcesShownForSelectedOrHoveredInstances": "RobloxScriptSecurity",
+                "AreConstraintTorquesShownForSelectedOrHoveredInstances": "RobloxScriptSecurity",
+                "AreContactForcesShownForSelectedOrHoveredAssemblies": "RobloxScriptSecurity",
+                "AreGravityForcesShownForSelectedOrHoveredAssemblies": "RobloxScriptSecurity",
+                "AreMagnitudesShownForDrawnForcesAndTorques": "RobloxScriptSecurity",
+                "AreSolverIslandsShown": "RobloxScriptSecurity",
+                "AreTimestepsShown": "RobloxScriptSecurity",
+                "DrawConstraintsNetForce": "RobloxScriptSecurity",
+                "DrawContactsNetForce": "RobloxScriptSecurity",
+                "DrawTotalNetForce": "RobloxScriptSecurity",
+                "EnableForceVisualizationSmoothing": "RobloxScriptSecurity",
+                "FluidForceDrawScale": "RobloxScriptSecurity",
+                "ForceDrawScale": "RobloxScriptSecurity",
+                "ForceVisualizationSmoothingSteps": "RobloxScriptSecurity",
+                "ShowFluidForcesForSelectedOrHoveredMechanisms": "RobloxScriptSecurity",
+                "ShowInstanceNamesForDrawnForcesAndTorques": "RobloxScriptSecurity",
+                "SolverConvergenceMetricType": "RobloxScriptSecurity",
+                "SolverConvergenceVisualizationMode": "RobloxScriptSecurity",
+                "TorqueDrawScale": "RobloxScriptSecurity"
+            },
+            "Player": {
+                "AppearanceDidLoad": "RobloxScriptSecurity",
+                "ChatMode": "RobloxScriptSecurity",
+                "ChatPrivacyMode": "RobloxScriptSecurity",
+                "DataComplexityLimit": "LocalUserSecurity",
+                "GameplayPaused": "Read",
+                "Guest": "RobloxScriptSecurity",
+                "MaxSimulationRadius": "LocalUserSecurity",
+                "MaximumSimulationRadius": "LocalUserSecurity",
+                "OsPlatform": "RobloxScriptSecurity",
+                "PlatformName": "RobloxScriptSecurity",
+                "SimulationRadius": "LocalUserSecurity",
+                "SuperSafeChatReplicate": "LocalUserSecurity",
+                "Teleported": "RobloxScriptSecurity",
+                "TeleportedIn": "RobloxScriptSecurity",
+                "UnfilteredChat": "RobloxScriptSecurity",
+                "VRDevice": "RobloxScriptSecurity",
+                "VREnabled": "RobloxScriptSecurity"
+            },
+            "PlayerEmulatorService": {
+                "CustomPoliciesEnabled": "RobloxScriptSecurity",
+                "EmulatedCountryCode": "RobloxScriptSecurity",
+                "EmulatedGameLocale": "RobloxScriptSecurity",
+                "PlayerEmulationEnabled": "RobloxScriptSecurity",
+                "PseudolocalizationEnabled": "RobloxScriptSecurity"
+            },
+            "Players": {
+                "MaxPlayersInternal": "LocalUserSecurity",
+                "PreferredPlayersInternal": "LocalUserSecurity"
+            },
+            "Plugin": {
+                "HostDataModelType": "RobloxScriptSecurity",
+                "HostDataModelTypeIsCurrent": "RobloxScriptSecurity",
+                "MultipleDocumentInterfaceInstance": "RobloxScriptSecurity",
+                "UsesAssetInsertionDrag": "RobloxScriptSecurity"
+            },
+            "PluginAction": {
+                "Checked": "RobloxScriptSecurity",
+                "DefaultShortcut": "RobloxScriptSecurity",
+                "Enabled": "RobloxScriptSecurity"
+            },
+            "PluginCapabilities": {
+                "Manifest": "RobloxScriptSecurity"
+            },
+            "PolicyService": {
+                "IsLuobuServer": "RobloxScriptSecurity",
+                "LuobuWhitelisted": "RobloxScriptSecurity"
+            },
+            "RunService": {
+                "ClientGitHash": "RobloxScriptSecurity",
+                "RunState": "PluginSecurity"
+            },
+            "SafetyService": {
+                "IsCaptureModeForReport": "RobloxScriptSecurity"
+            },
+            "ScreenGui": {
+                "OnTopOfCoreBlur": "RobloxScriptSecurity"
+            },
+            "Script": {
+                "Source": "PluginSecurity"
+            },
+            "ScriptContext": {
+                "ScriptsDisabled": "LocalUserSecurity"
+            },
+            "ScrollingFrame": {
+                "HorizontalBarRect": "RobloxScriptSecurity",
+                "MaxCanvasPosition": "RobloxScriptSecurity",
+                "ScrollVelocity": "RobloxScriptSecurity",
+                "VerticalBarRect": "RobloxScriptSecurity"
+            },
+            "Selection": {
+                "ActiveInstance": "RobloxScriptSecurity",
+                "RenderMode": "RobloxScriptSecurity",
+                "SelectionBoxThickness": "RobloxScriptSecurity",
+                "SelectionLineThickness": "RobloxScriptSecurity",
+                "ShowActiveInstanceHighlight": "RobloxScriptSecurity"
+            },
+            "SelectionBox": {
+                "StudioSelectionBox": "RobloxScriptSecurity"
+            },
+            "Sound": {
+                "ChannelCount": "RobloxScriptSecurity",
+                "IsSpatial": "RobloxScriptSecurity",
+                "RollOffGain": "RobloxScriptSecurity",
+                "UsageContextPermission": "RobloxScriptSecurity"
+            },
+            "StackFrame": {
+                "FrameId": "RobloxScriptSecurity",
+                "FrameName": "RobloxScriptSecurity",
+                "FrameType": "RobloxScriptSecurity",
+                "Globals": "RobloxScriptSecurity",
+                "Line": "RobloxScriptSecurity",
+                "Locals": "RobloxScriptSecurity",
+                "Populated": "RobloxScriptSecurity",
+                "Script": "RobloxScriptSecurity",
+                "Upvalues": "RobloxScriptSecurity"
+            },
+            "StarterGui": {
+                "ProcessUserInput": "PluginSecurity"
+            },
+            "StarterPlayer": {
+                "AllowCustomAnimations": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "GameSettingsAssetIDFace": "RobloxScriptSecurity",
+                "GameSettingsAssetIDHead": "RobloxScriptSecurity",
+                "GameSettingsAssetIDLeftArm": "RobloxScriptSecurity",
+                "GameSettingsAssetIDLeftLeg": "RobloxScriptSecurity",
+                "GameSettingsAssetIDPants": "RobloxScriptSecurity",
+                "GameSettingsAssetIDRightArm": "RobloxScriptSecurity",
+                "GameSettingsAssetIDRightLeg": "RobloxScriptSecurity",
+                "GameSettingsAssetIDShirt": "RobloxScriptSecurity",
+                "GameSettingsAssetIDTeeShirt": "RobloxScriptSecurity",
+                "GameSettingsAssetIDTorso": "RobloxScriptSecurity",
+                "GameSettingsAvatar": "RobloxScriptSecurity",
+                "GameSettingsR15Collision": "RobloxScriptSecurity",
+                "GameSettingsScaleRangeBodyType": "RobloxScriptSecurity",
+                "GameSettingsScaleRangeHead": "RobloxScriptSecurity",
+                "GameSettingsScaleRangeHeight": "RobloxScriptSecurity",
+                "GameSettingsScaleRangeProportion": "RobloxScriptSecurity",
+                "GameSettingsScaleRangeWidth": "RobloxScriptSecurity"
+            },
+            "StatsItem": {
+                "DisplayName": "PluginSecurity"
+            },
+            "Studio": {
+                "Automatically trigger AI Code Completion": "RobloxScriptSecurity",
+                "Camera Pan Speed": "RobloxScriptSecurity",
+                "CameraAdaptiveSpeed": "RobloxScriptSecurity",
+                "CameraTweenFocus": "RobloxScriptSecurity",
+                "DisplayLanguage": "RobloxScriptSecurity",
+                "Doc View Code Background Color": "RobloxScriptSecurity",
+                "DraggerActiveColor": "RobloxScriptSecurity",
+                "DraggerMajorGridIncrement": "RobloxScriptSecurity",
+                "DraggerMaxSoftSnaps": "RobloxScriptSecurity",
+                "DraggerPassiveColor": "RobloxScriptSecurity",
+                "DraggerShowHoverRuler": "RobloxScriptSecurity",
+                "DraggerShowMeasurement": "RobloxScriptSecurity",
+                "DraggerShowTargetSnap": "RobloxScriptSecurity",
+                "DraggerSoftSnapMarginFactor": "RobloxScriptSecurity",
+                "DraggerSummonMarginFactor": "RobloxScriptSecurity",
+                "DraggerTiltRotateDuration": "RobloxScriptSecurity",
+                "Enable Autocomplete Doc View": "RobloxScriptSecurity",
+                "Enable Script Analysis": "RobloxScriptSecurity",
+                "Enable Scrollbar Markers": "RobloxScriptSecurity",
+                "Enable Signature Help": "RobloxScriptSecurity",
+                "Enable Signature Help Doc View": "RobloxScriptSecurity",
+                "Enable Type Hover": "RobloxScriptSecurity",
+                "EnableCodeAssist": "RobloxScriptSecurity",
+                "EnableIndentationRulers": "RobloxScriptSecurity",
+                "EnableOnTypeAutocomplete": "RobloxScriptSecurity",
+                "FreeCameraSpeedScroll": "RobloxScriptSecurity",
+                "IconOverrideDir": "RobloxScriptSecurity",
+                "IndentationRulerColor": "RobloxScriptSecurity",
+                "LargeFileLineCountThreshold": "RobloxScriptSecurity",
+                "LargeFileThreshold": "RobloxScriptSecurity",
+                "LoadAllBuiltinPluginsInRunModes": "RobloxScriptSecurity",
+                "LoadUserPluginsInRunModes": "RobloxScriptSecurity",
+                "LocalAssetsFolder": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "Main Volume": "RobloxScriptSecurity",
+                "Physical Draggers Select Scope By Default": "RobloxScriptSecurity",
+                "ScriptEditorMenuBorderColor": "RobloxScriptSecurity",
+                "ScriptEditorShouldShowPluginMethods": "RobloxScriptSecurity",
+                "Show Light Guides": "RobloxScriptSecurity",
+                "Show Navigation Labels": "RobloxScriptSecurity",
+                "Show Pathfinding Links": "RobloxScriptSecurity",
+                "Show Singly Selected Attachment Parent Frame": "RobloxScriptSecurity",
+                "ShowCorePackagesInExplorer": "RobloxScriptSecurity",
+                "Use Bounding Box Move Handles": "RobloxScriptSecurity"
+            },
+            "StudioCallout": {
+                "AnchorPoint": "RobloxScriptSecurity",
+                "IsArrowVisible": "RobloxScriptSecurity",
+                "IsNextVisible": "RobloxScriptSecurity",
+                "RowName": "RobloxScriptSecurity",
+                "Text": "RobloxScriptSecurity",
+                "Title": "RobloxScriptSecurity"
+            },
+            "StudioData": {
+                "EnableScriptCollabByDefaultOnLoad": "RobloxScriptSecurity"
+            },
+            "StudioDeviceEmulatorService": {
+                "HasMultiTouchStarted": "RobloxScriptSecurity",
+                "IsMultiTouchEmulationOn": "RobloxScriptSecurity",
+                "IsMultiTouchEnabled": "RobloxScriptSecurity",
+                "PivotPosition": "RobloxScriptSecurity"
+            },
+            "StudioPublishService": {
+                "PublishLocked": "RobloxScriptSecurity"
+            },
+            "StudioService": {
+                "AlignDraggedObjects": "RobloxScriptSecurity",
+                "HoverInstance": "RobloxScriptSecurity",
+                "InstalledPluginData": "RobloxScriptSecurity",
+                "PivotSnapToGeometry": "RobloxScriptSecurity",
+                "Secrets": "RobloxScriptSecurity"
+            },
+            "SurfaceAppearance": {
+                "AlphaMode": "PluginSecurity",
+                "ColorMap": "PluginSecurity",
+                "MetalnessMap": "PluginSecurity",
+                "NormalMap": "PluginSecurity",
+                "RoughnessMap": "PluginSecurity"
+            },
+            "SurfaceGui": {
+                "HorizontalCurvature": "RobloxScriptSecurity",
+                "Shape": "RobloxScriptSecurity"
+            },
+            "Team": {
+                "ChildOrder": "RobloxScriptSecurity"
+            },
+            "Terrain": {
+                "AcquisitionMethod": "RobloxScriptSecurity",
+                "LastUsedModificationMethod": "RobloxScriptSecurity",
+                "ShorelinesUpgraded": "RobloxScriptSecurity",
+                "SmoothVoxelsUpgraded": "RobloxScriptSecurity"
+            },
+            "TerrainDetail": {
+                "ColorMap": "PluginSecurity",
+                "MetalnessMap": "PluginSecurity",
+                "NormalMap": "PluginSecurity",
+                "RoughnessMap": "PluginSecurity"
+            },
+            "TextBox": {
+                "LocalizationMatchIdentifier": "RobloxScriptSecurity",
+                "LocalizationMatchedSourceText": "RobloxScriptSecurity",
+                "ManualFocusRelease": "RobloxScriptSecurity",
+                "OverlayNativeInput": "RobloxScriptSecurity",
+                "ReturnKeyType": "RobloxScriptSecurity",
+                "TextInputType": "RobloxScriptSecurity"
+            },
+            "TextButton": {
+                "LocalizationMatchIdentifier": "RobloxScriptSecurity",
+                "LocalizationMatchedSourceText": "RobloxScriptSecurity"
+            },
+            "TextChatService": {
+                "ChatTranslationEnabled": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "ChatTranslationFTUXShown": "RobloxScriptSecurity",
+                "ChatTranslationToggleEnabled": "RobloxScriptSecurity",
+                "ChatVersion": "Read",
+                "CreateDefaultCommands": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "CreateDefaultTextChannels": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "TextLabel": {
+                "LocalizationMatchIdentifier": "RobloxScriptSecurity",
+                "LocalizationMatchedSourceText": "RobloxScriptSecurity"
+            },
+            "ThreadState": {
+                "FrameCount": "RobloxScriptSecurity",
+                "Populated": "RobloxScriptSecurity",
+                "ThreadId": "RobloxScriptSecurity",
+                "ThreadName": "RobloxScriptSecurity"
+            },
+            "TriangleMeshPart": {
+                "CollisionFidelity": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "FluidFidelity": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "UserGameSettings": {
+                "AllTutorialsDisabled": "RobloxScriptSecurity",
+                "CameraMode": "RobloxScriptSecurity",
+                "CameraYInverted": "RobloxScriptSecurity",
+                "ChatTranslationEnabled": "RobloxScriptSecurity",
+                "ChatTranslationFTUXShown": "RobloxScriptSecurity",
+                "ChatTranslationLocale": "RobloxScriptSecurity",
+                "ChatTranslationToggleEnabled": "RobloxScriptSecurity",
+                "ChatVisible": "RobloxScriptSecurity",
+                "CompletedTutorials": "RobloxScriptSecurity",
+                "DefaultCameraID": "RobloxScriptSecurity",
+                "FramerateCap": "RobloxScriptSecurity",
+                "Fullscreen": "RobloxScriptSecurity",
+                "GraphicsQualityLevel": "RobloxScriptSecurity",
+                "HasEverUsedVR": "RobloxScriptSecurity",
+                "IsUsingCameraYInverted": "RobloxScriptSecurity",
+                "IsUsingGamepadCameraSensitivity": "RobloxScriptSecurity",
+                "MasterVolume": "RobloxScriptSecurity",
+                "MasterVolumeStudio": "RobloxScriptSecurity",
+                "MicroProfilerWebServerEnabled": "RobloxScriptSecurity",
+                "MicroProfilerWebServerIP": "RobloxScriptSecurity",
+                "MicroProfilerWebServerPort": "RobloxScriptSecurity",
+                "MouseSensitivityFirstPerson": "RobloxScriptSecurity",
+                "MouseSensitivityThirdPerson": "RobloxScriptSecurity",
+                "OnScreenProfilerEnabled": "RobloxScriptSecurity",
+                "OnboardingsCompleted": "RobloxScriptSecurity",
+                "PerformanceStatsVisible": "RobloxScriptSecurity",
+                "PlayerHeight": "RobloxScriptSecurity",
+                "PreferredTransparency": "RobloxScriptSecurity",
+                "QualityResetLevel": "RobloxScriptSecurity",
+                "ReducedMotion": "RobloxScriptSecurity",
+                "StartMaximized": "RobloxScriptSecurity",
+                "StartScreenPosition": "RobloxScriptSecurity",
+                "StartScreenSize": "RobloxScriptSecurity",
+                "UiNavigationKeyBindEnabled": "RobloxScriptSecurity",
+                "UsedCoreGuiIsVisibleToggle": "RobloxScriptSecurity",
+                "UsedCustomGuiIsVisibleToggle": "RobloxScriptSecurity",
+                "UsedHideHudShortcut": "RobloxScriptSecurity",
+                "VRComfortSetting": "RobloxScriptSecurity",
+                "VREnabled": "RobloxScriptSecurity",
+                "VRRotationIntensity": "RobloxScriptSecurity",
+                "VRSafetyBubbleMode": "RobloxScriptSecurity",
+                "VRSmoothRotationEnabled": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "VRSmoothRotationEnabledCustomOption": "RobloxScriptSecurity",
+                "VRThirdPersonFollowCamEnabled": "RobloxScriptSecurity",
+                "VRThirdPersonFollowCamEnabledCustomOption": "RobloxScriptSecurity",
+                "VignetteEnabled": {
+                    "Read": "None",
+                    "Write": "RobloxScriptSecurity"
+                },
+                "VignetteEnabledCustomOption": "RobloxScriptSecurity",
+                "gaID": "RobloxScriptSecurity"
+            },
+            "UserInputService": {
+                "BottomBarSize": "RobloxScriptSecurity",
+                "LegacyInputEventsEnabled": "RobloxScriptSecurity",
+                "NavBarSize": "RobloxScriptSecurity",
+                "OnScreenKeyboardAnimationDuration": "RobloxScriptSecurity",
+                "OverrideMouseIconBehavior": "RobloxScriptSecurity",
+                "RightBarSize": "RobloxScriptSecurity",
+                "StatusBarSize": "RobloxScriptSecurity"
+            },
+            "VRService": {
+                "DidPointerHit": "RobloxScriptSecurity",
+                "LaserDistance": "RobloxScriptSecurity",
+                "PointerHitCFrame": "RobloxScriptSecurity",
+                "QuestASWState": "RobloxScriptSecurity",
+                "QuestDisplayRefreshRate": "RobloxScriptSecurity",
+                "VRDeviceAvailable": "RobloxScriptSecurity",
+                "VRDeviceName": "RobloxScriptSecurity",
+                "VRSessionState": "RobloxScriptSecurity"
+            },
+            "VersionControlService": {
+                "ScriptCollabEnabled": "RobloxScriptSecurity"
+            },
+            "VideoCaptureService": {
+                "Active": "RobloxScriptSecurity",
+                "CameraID": "RobloxScriptSecurity"
+            },
+            "ViewportFrame": {
+                "IsMirrored": "RobloxScriptSecurity"
+            },
+            "VirtualInputManager": {
+                "AdditionalLuaState": "RobloxScriptSecurity"
+            },
+            "VisualizationMode": {
+                "Enabled": "RobloxScriptSecurity",
+                "Title": "RobloxScriptSecurity"
+            },
+            "VisualizationModeCategory": {
+                "Enabled": "RobloxScriptSecurity",
+                "Title": "RobloxScriptSecurity"
+            },
+            "VoiceChatService": {
+                "EnableDefaultVoice": "PluginSecurity",
+                "UseAudioApi": "PluginSecurity",
+                "UseNewAudioApi": "RobloxScriptSecurity",
+                "VoiceChatEnabledForPlaceOnRcc": "RobloxScriptSecurity",
+                "VoiceChatEnabledForUniverseOnRcc": "RobloxScriptSecurity"
+            },
+            "Workspace": {
+                "FallenPartsDestroyHeight": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "FilteringEnabled": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "InterpolationThrottling": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "StreamingEnabled": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "WrapLayer": {
+                "BindOffset": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "ReferenceMeshId": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "ReferenceOrigin": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                },
+                "ShrinkFactor": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            },
+            "WrapTarget": {
+                "Stiffness": {
+                    "Read": "None",
+                    "Write": "PluginSecurity"
+                }
+            }
+        }
+    },
+    "Inaccessible": {
+        "Event": {
+            "Accoutrement": {
+                "ServerEquipAccoutrement": "RobloxSecurity",
+                "ServerUnequipAccoutrement": "RobloxSecurity"
+            },
+            "AdGui": {
+                "AdEvent": "RobloxSecurity",
+                "ReportIsSubscribedToVideoCompletion": "RobloxSecurity"
+            },
+            "AdService": {
+                "ReportImpressionSignal": "RobloxSecurity",
+                "ReportTeleportSignal": "RobloxSecurity",
+                "ServeAdResponseSignal": "RobloxSecurity",
+                "ServeAdSignal": "RobloxSecurity"
+            },
+            "Animator": {
+                "OnCombinedUpdate": "RobloxSecurity",
+                "OnCombinedUpdate2": "RobloxSecurity",
+                "OnStreamingUpdated": "RobloxSecurity",
+                "OnStreamingUpdated2": "RobloxSecurity",
+                "StreamSyncRequest": "RobloxSecurity"
+            },
+            "AvatarChatService": {
+                "OnClientFeatures": "RobloxSecurity",
+                "RefreshClientFeatures": "RobloxSecurity"
+            },
+            "AvatarCreationService": {
+                "ReplicateAvatarModel": "RobloxSecurity",
+                "RequestAvatarModel": "RobloxSecurity"
+            },
+            "CaptureService": {
+                "OnCaptureSignatureResult": "RobloxSecurity",
+                "RequestCaptureSignature": "RobloxSecurity"
+            },
+            "Chat": {
+                "ClientToServerFilterMessageSignalV2": "RobloxSecurity",
+                "ClientToServerReportUnfilteredSignal": "RobloxSecurity",
+                "ServerToClientUnderOver13FilteredResponseSignal": "RobloxSecurity"
+            },
+            "ClickDetector": {
+                "MouseActionReplicated": "RobloxSecurity"
+            },
+            "CommerceService": {
+                "InExperienceBrowserRequested": "RobloxSecurity"
+            },
+            "ExperienceAuthService": {
+                "ScopeCheckResult": "RobloxSecurity"
+            },
+            "FriendService": {
+                "RemoteFriendEventSignal": "RobloxSecurity",
+                "RemoteFriendStatusSignal": "RobloxSecurity"
+            },
+            "Humanoid": {
+                "ServerApplyDescription": "RobloxSecurity",
+                "ServerBreakJoints": "RobloxSecurity",
+                "ServerEquipTool": "RobloxSecurity"
+            },
+            "LiveScriptingService": {
+                "BeginEdit": "RobloxSecurity",
+                "BroadcastMessage": "RobloxSecurity",
+                "EndEdit": "RobloxSecurity",
+                "FailedToOpen": "RobloxSecurity",
+                "KickFromEdit": "RobloxSecurity",
+                "LiveEditingClientConfiguration": "RobloxSecurity",
+                "OpenedWithSource": "RobloxSecurity",
+                "SendAtomicOperation": "RobloxSecurity",
+                "SendAtomicUpdateResponse": "RobloxSecurity",
+                "SendOperation": "RobloxSecurity"
+            },
+            "LocalizationService": {
+                "TextScraperClientMessageWithPlayerSignal": "RobloxSecurity"
+            },
+            "LogService": {
+                "RequestHttpResultApprovedSignal": "RobloxSecurity",
+                "RequestScriptExecutionSignal": "RobloxSecurity",
+                "RequestServerHttpResultSignal": "RobloxSecurity",
+                "RequestServerOutputSignal": "RobloxSecurity",
+                "RequestSettingsChange": "RobloxSecurity",
+                "ServerVariantMessageOut": "RobloxSecurity"
+            },
+            "LoginService": {
+                "LoginFailed": "RobloxSecurity",
+                "LoginSucceeded": "RobloxSecurity"
+            },
+            "MarketplaceService": {
+                "ConfirmUserSubscriptionPurchase": "RobloxSecurity",
+                "MockConfirmUserSubscriptionPurchase": "RobloxSecurity",
+                "PromptNativePurchaseRequested": "RobloxSecurity",
+                "PromptNativePurchaseRequestedWithLocalPlayer": "RobloxSecurity",
+                "PromptThirdPartyPurchaseRequested": "RobloxSecurity"
+            },
+            "PartOperation": {
+                "MeshDeltaUpdate": "RobloxSecurity",
+                "MeshFullUpdate": "RobloxSecurity",
+                "RequestMeshFullUpdate": "RobloxSecurity"
+            },
+            "Player": {
+                "CloudEditSelectionChanged": "RobloxSecurity",
+                "ConnectDiedSignalBackend": "RobloxSecurity",
+                "OnTeleportInternal": "RobloxSecurity",
+                "PlayerCharacterLoaded": "RobloxSecurity",
+                "PlayerChatTranslationSettingsLocaleSetFromLua": "RobloxSecurity",
+                "PlayerExperienceSettingsLocaleSetFromLua": "RobloxSecurity",
+                "ScopeCheckInitiated": "RobloxSecurity",
+                "ServerToClientUnfilteredChatReplicate": "RobloxSecurity",
+                "ServerUpdatedHead": "RobloxSecurity",
+                "SetShutdownMessage": "RobloxSecurity"
+            },
+            "PlayerHydrationService": {
+                "PlayerHydration": "RobloxSecurity"
+            },
+            "Players": {
+                "CloudEditApplyEditsMessage": "RobloxSecurity",
+                "OnLinkedScriptsUpdated": "RobloxSecurity",
+                "PromptGameServerReportEnrichment": "RobloxSecurity",
+                "PromptReportServerEnrichmentAndScan": "RobloxSecurity",
+                "RequestCloudEditImmediatePublishWithContext": "RobloxSecurity",
+                "RequestCloudEditKick": "RobloxSecurity",
+                "RequestCloudEditShutdown": "RobloxSecurity",
+                "RequestTeamCreateImmediateSaveWithContext": "RobloxSecurity",
+                "TeamCreatePublishFinished": "RobloxSecurity",
+                "TeamCreateSaveFinished": "RobloxSecurity",
+                "TeamCreateServerMessage": "RobloxSecurity"
+            },
+            "ProximityPrompt": {
+                "ButtonHoldBeganActionReplicated": "RobloxSecurity",
+                "ButtonHoldEndedActionReplicated": "RobloxSecurity",
+                "TriggerEndedActionReplicated": "RobloxSecurity",
+                "TriggeredActionReplicated": "RobloxSecurity"
+            },
+            "RemoteCursorService": {
+                "BroadcastRemoteCursorPositions": "RobloxSecurity",
+                "RequestAllRemoteCursorPositionForScript": "RobloxSecurity",
+                "UpdateClientRemoteCursorPosition": "RobloxSecurity"
+            },
+            "RemoteEvent": {
+                "OnRemoteServerEvent": "RobloxSecurity"
+            },
+            "SafetyService": {
+                "FSTriggeredSignal": "RobloxSecurity"
+            },
+            "ScriptProfilerService": {
+                "RequestData": "RobloxSecurity",
+                "SetProfilingState": "RobloxSecurity"
+            },
+            "SocialService": {
+                "IrisInviteInitiated": "RobloxSecurity"
+            },
+            "Sound": {
+                "PlayingUpdatedFromClient": "RobloxSecurity",
+                "PlayingUpdatedFromServer": "RobloxSecurity",
+                "TimePositionUpdatedFromClient": "RobloxSecurity",
+                "TimePositionUpdatedFromServer": "RobloxSecurity",
+                "playbackActionSync": "RobloxSecurity"
+            },
+            "SoundService": {
+                "ClientLoggedEvent": "RobloxSecurity"
+            },
+            "TeleportService": {
+                "SendVIPData": "RobloxSecurity",
+                "TeleportInProgress": "RobloxSecurity",
+                "TeleportInitFailedInternal": "RobloxSecurity"
+            },
+            "TextChatService": {
+                "ClientToServerMessageReplicateSignal": "RobloxSecurity",
+                "ClientToServerMessageReplicateSignalV2": "RobloxSecurity",
+                "ServerToClientMessageReplicateSignal": "RobloxSecurity",
+                "ServerToClientMessageReplicateSignalV2": "RobloxSecurity"
+            },
+            "Tool": {
+                "VRLaserPointerClicked": "RobloxSecurity"
+            },
+            "UnreliableRemoteEvent": {
+                "OnRemoteServerEvent": "RobloxSecurity"
+            },
+            "VersionControlService": {
+                "BroadcastScriptChangesSubmitted": "RobloxSecurity"
+            },
+            "VideoFrame": {
+                "PlayingUpdatedFromServer": "RobloxSecurity",
+                "TimePositionUpdatedFromServer": "RobloxSecurity"
+            },
+            "VoiceChatService": {
+                "ClientRetryJoin": "RobloxSecurity",
+                "ClientRetryJoinWithConfig": "RobloxSecurity",
+                "JoinedVoice": "RobloxSecurity",
+                "PublishStateChange": "RobloxSecurity",
+                "PublishingHandshakeAcked": "RobloxSecurity",
+                "PublishingHandshakeCompleted": "RobloxSecurity",
+                "PublishingHandshakeInitiated": "RobloxSecurity",
+                "ReJoinedVoice": "RobloxSecurity",
+                "RelayCandidatesGathered": "RobloxSecurity",
+                "SubscribeStateChange": "RobloxSecurity",
+                "SubscriptionHandshakeAcked": "RobloxSecurity",
+                "SubscriptionHandshakeCompleted": "RobloxSecurity",
+                "SubscriptionHandshakeInitiated": "RobloxSecurity",
+                "SubscriptionInitialClientDescriptor": "RobloxSecurity",
+                "SubscriptionInitialClientDescriptorRequested": "RobloxSecurity",
+                "SubscriptionReset": "RobloxSecurity",
+                "TurnServerInfoAcked": "RobloxSecurity",
+                "TurnServerInfoRequested": "RobloxSecurity",
+                "VoiceChatClientVoiceCapability": "RobloxSecurity",
+                "VoiceChatClientVoiceCapabilityWithConfig": "RobloxSecurity",
+                "VoiceChatPlayerMuteStateChangedClientToServer": "RobloxSecurity",
+                "VoiceChatPlayerMuteStateChangedServerToClient": "RobloxSecurity",
+                "VoiceChatSampleTaggedEventClientToServer": "RobloxSecurity",
+                "VoiceChatSampleTaggedEventServerToClient": "RobloxSecurity",
+                "VoiceChatSubscriptionInitialBatchEmpty": "RobloxSecurity",
+                "VoiceChatplayerMuteStatusChangedEvent": "RobloxSecurity",
+                "VoiceSetupFailed": "RobloxSecurity"
+            }
+        },
+        "Function": {
+            "LoginService": {
+                "Logout": "RobloxSecurity",
+                "PromptLogin": "RobloxSecurity"
+            },
+            "Player": {
+                "GetGameSessionID": "RobloxSecurity",
+                "SetUnder13": "RobloxSecurity"
+            }
+        },
+        "Property": {
+            "AudioDeviceInput": {
+                "AccessList": "RobloxSecurity"
+            },
+            "AudioEmitter": {
+                "DistanceAttenuation": "RobloxSecurity"
+            },
+            "AudioPlayer": {
+                "IsPlaying": "Write"
+            },
+            "AvatarChatService": {
+                "ServerFeatures": "Write"
+            },
+            "BaseWrap": {
+                "HSRAssetId": "RobloxSecurity",
+                "HSRData": "RobloxSecurity",
+                "HSRMeshIdData": "RobloxSecurity",
+                "TemporaryCageMeshId": "RobloxSecurity"
+            },
+            "Chat": {
+                "LoadDefaultChat": "Write"
+            },
+            "DataModel": {
+                "ForceR15": "RobloxSecurity",
+                "GameAvatarType": "RobloxSecurity",
+                "R15CollisionType": "RobloxSecurity"
+            },
+            "EditableImage": {
+                "ImageData": "RobloxSecurity"
+            },
+            "EditableMesh": {
+                "MeshData": "RobloxSecurity"
+            },
+            "Folder": {
+                "ReplicatedGuiInsertionOrder": "RobloxSecurity"
+            },
+            "GameSettings": {
+                "VideoRecording": "Write"
+            },
+            "GuiBase2d": {
+                "ReplicatedInsertionOrder": "RobloxSecurity"
+            },
+            "HiddenSurfaceRemovalAsset": {
+                "HSRData": "RobloxSecurity",
+                "HSRMeshIdData": "RobloxSecurity"
+            },
+            "Instance": {
+                "Attributes": "RobloxSecurity",
+                "AttributesReplicate": "RobloxSecurity",
+                "AttributesSerialize": "RobloxSecurity",
+                "Capabilities": "RobloxSecurity",
+                "DefinesCapabilities": "RobloxSecurity",
+                "HistoryId": "RobloxSecurity",
+                "PropertyStatusStudio": "RobloxSecurity",
+                "Sandboxed": "RobloxSecurity",
+                "Tags": "RobloxSecurity",
+                "UniqueId": "RobloxSecurity"
+            },
+            "LuaSourceContainer": {
+                "HasAssociatedDrafts": "RobloxSecurity",
+                "IsDifferentFromFileSystem": "RobloxSecurity",
+                "OriginalScriptGuid": "RobloxSecurity",
+                "SandboxedSource": "RobloxSecurity",
+                "SyncingEditorText": "RobloxSecurity"
+            },
+            "MaterialService": {
+                "AsphaltName": "RobloxSecurity",
+                "BasaltName": "RobloxSecurity",
+                "BrickName": "RobloxSecurity",
+                "CardboardName": "RobloxSecurity",
+                "CarpetName": "RobloxSecurity",
+                "CeramicTilesName": "RobloxSecurity",
+                "ClayRoofTilesName": "RobloxSecurity",
+                "CobblestoneName": "RobloxSecurity",
+                "ConcreteName": "RobloxSecurity",
+                "CorrodedMetalName": "RobloxSecurity",
+                "CrackedLavaName": "RobloxSecurity",
+                "DiamondPlateName": "RobloxSecurity",
+                "FabricName": "RobloxSecurity",
+                "FoilName": "RobloxSecurity",
+                "GlacierName": "RobloxSecurity",
+                "GraniteName": "RobloxSecurity",
+                "GrassName": "RobloxSecurity",
+                "GroundName": "RobloxSecurity",
+                "IceName": "RobloxSecurity",
+                "LeafyGrassName": "RobloxSecurity",
+                "LeatherName": "RobloxSecurity",
+                "LimestoneName": "RobloxSecurity",
+                "MarbleName": "RobloxSecurity",
+                "MetalName": "RobloxSecurity",
+                "MudName": "RobloxSecurity",
+                "PavementName": "RobloxSecurity",
+                "PebbleName": "RobloxSecurity",
+                "PlasterName": "RobloxSecurity",
+                "PlasticName": "RobloxSecurity",
+                "RockName": "RobloxSecurity",
+                "RoofShinglesName": "RobloxSecurity",
+                "RubberName": "RobloxSecurity",
+                "SaltName": "RobloxSecurity",
+                "SandName": "RobloxSecurity",
+                "SandstoneName": "RobloxSecurity",
+                "SlateName": "RobloxSecurity",
+                "SmoothPlasticName": "RobloxSecurity",
+                "SnowName": "RobloxSecurity",
+                "WoodName": "RobloxSecurity",
+                "WoodPlanksName": "RobloxSecurity"
+            },
+            "MeshPart": {
+                "AlternateMeshHash": "RobloxSecurity",
+                "EditableMeshString": "RobloxSecurity",
+                "HasJointOffset": "Write",
+                "HasSkinnedMesh": "Write",
+                "InitialSize": "RobloxSecurity",
+                "JointOffset": "Write",
+                "MeshId": "Write",
+                "PhysicsData": "RobloxSecurity",
+                "VertexCount": "RobloxSecurity"
+            },
+            "ModuleScript": {
+                "Confidential": "RobloxSecurity"
+            },
+            "NetworkSettings": {
+                "OpenCertManagerDialog": "NotAccessibleSecurity"
+            },
+            "PackageLink": {
+                "CanAutoUpdate": "RobloxSecurity",
+                "DefaultName": "Write",
+                "SerializedDefaultAttributes": "Write",
+                "VersionNumber": "Write"
+            },
+            "PartOperation": {
+                "AssetId": "RobloxSecurity",
+                "CSGPropertyData": "RobloxSecurity",
+                "ChildData": "RobloxSecurity",
+                "ChildData2": "RobloxSecurity",
+                "DCDPropertyData": "RobloxSecurity",
+                "FormFactor": "RobloxSecurity",
+                "InitialSize": "RobloxSecurity",
+                "ManifoldMesh": "RobloxSecurity",
+                "MeshData": "RobloxSecurity",
+                "MeshData2": "RobloxSecurity",
+                "PhysicsData": "RobloxSecurity"
+            },
+            "PartOperationAsset": {
+                "ChildData": "RobloxSecurity",
+                "MeshData": "RobloxSecurity"
+            },
+            "Player": {
+                "ChararacterRegionId": "RobloxSecurity",
+                "GameplayPaused": "Write",
+                "RawJoinData": "RobloxSecurity"
+            },
+            "PlayerEmulatorService": {
+                "SerializedEmulatedPolicyInfo": "RobloxSecurity"
+            },
+            "Players": {
+                "ServerGitHash": "RobloxSecurity",
+                "ServerLogPrefix": "RobloxSecurity"
+            },
+            "ReflectionMetadataClass": {
+                "ServiceVisibility": "RobloxSecurity"
+            },
+            "RobloxEditableImage": {
+                "ImageDataSerialize": "RobloxSecurity"
+            },
+            "RobloxEditableMesh": {
+                "MeshDataSerialize": "RobloxSecurity"
+            },
+            "ServiceVisibilityService": {
+                "HiddenServices": "RobloxSecurity",
+                "VisibleServices": "RobloxSecurity"
+            },
+            "Studio": {
+                "Hover Box Thickness": "RobloxSecurity",
+                "Hover Line Thickness": "RobloxSecurity",
+                "Pivot Snap To Geometry Color": "RobloxSecurity",
+                "ReloadBuiltinPluginsOnChange": "RobloxSecurity",
+                "ReloadLocalPluginsOnChange": "RobloxSecurity",
+                "Selection Box Thickness": "RobloxSecurity",
+                "Selection Line Thickness": "RobloxSecurity"
+            },
+            "SurfaceAppearance": {
+                "TexturePack": "RobloxSecurity"
+            },
+            "TeamCreateData": {
+                "InitialCameraCFrame": "RobloxSecurity"
+            },
+            "TextBox": {
+                "Confidential": "RobloxSecurity"
+            },
+            "TextButton": {
+                "Confidential": "RobloxSecurity"
+            },
+            "TextChatService": {
+                "ChatVersion": "Write"
+            },
+            "TextLabel": {
+                "Confidential": "RobloxSecurity"
+            },
+            "TriangleMeshPart": {
+                "AeroMeshData": "RobloxSecurity",
+                "FluidFidelityInternal": "RobloxSecurity",
+                "PhysicalConfigData": "RobloxSecurity"
+            },
+            "UnvalidatedAssetService": {
+                "CachedData": "RobloxSecurity"
+            },
+            "UserGameSettings": {
+                "ComputerCameraMovementChanged": "RobloxSecurity",
+                "ComputerMovementChanged": "RobloxSecurity",
+                "TouchCameraMovementChanged": "RobloxSecurity",
+                "TouchMovementChanged": "RobloxSecurity"
+            },
+            "VersionControlService": {
+                "ScriptCollabVersionHistoryEnabled": "RobloxSecurity"
+            },
+            "VoiceChatService": {
+                "UseNewControlPaths": "RobloxSecurity",
+                "UseNewJoinFlow": "RobloxSecurity",
+                "UseRME": "RobloxSecurity"
+            },
+            "Workspace": {
+                "CollisionGroupData": "RobloxSecurity"
+            },
+            "WrapLayer": {
+                "TemporaryReferenceId": "RobloxSecurity"
+            }
+        }
+    }
+}

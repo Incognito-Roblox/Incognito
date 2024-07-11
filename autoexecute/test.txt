@@ -1,0 +1,2 @@
+print("auto execute works")
+--loadfile("test.txt")("workspace works")
