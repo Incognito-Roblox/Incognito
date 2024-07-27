@@ -20,7 +20,7 @@ However, following a public leak, we have decided to officially release the late
 This repository is a resource for learning and understanding. We hope that by making this code available, we can support the community in using and improving their own software safely and effectively.
 
 ## License
-Please ensure you **[read and follow the license](/LICENSE)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
+Please ensure you **[read and follow the license](/LICENSE.md)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
 
 Thank you, - **Incognito Development Team**
 - [@piomanly](https://github.com/piomanly)
