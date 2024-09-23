@@ -28,3 +28,4 @@ Thank you, - **Incognito Development Team**
 - [@usragent](https://github.com/usragent)
 - [@Ficelloo](https://github.com/Ficelloo)
 - [@jLn0n](https://github.com/jLn0n)
+- [@blatantfr](https://github.com/blatantfr)
