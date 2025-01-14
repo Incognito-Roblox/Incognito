@@ -1,4 +1,6 @@
 # Incognito
+>[!WARNING]
+> This version of Incognito **does NOT work**, so there's nothing you can do here besides inspecting the code and find a way for injection.
 
 This is the official source code of **Incognito**. Brought to you by the developers behind the software. This repository was created to provide a central, safe, and malware-free location for accessing and reviewing the code.
 
