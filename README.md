@@ -1,3 +1,6 @@
+# FOR SKIDS
+This is very outdated and you need to change so many things yes ok bye ok
+
 # Incognito
 
 This is the official source code of **Incognito**. Brought to you by the developers behind the software. This repository was created to provide a central, safe, and malware-free location for accessing and reviewing the code.
